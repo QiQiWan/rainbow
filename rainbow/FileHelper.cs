@@ -2,12 +2,20 @@ using System.IO;
 
 namespace rainbow
 {
+
+    /// <summary>
+    /// 文件帮助类，负责读写创建文件
+    /// </summary>
     public class FileHelper
     {
         private static FileStream fileStream;
         private static StreamReader streamReader;
         private static StreamWriter streamWriter;
-
+        /// <summary>
+        /// 读取指定文本文件
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
         public static string ReadFile(string filePath)
         {
             string fullText = "";
@@ -26,7 +34,12 @@ namespace rainbow
             }
             return fullText;
         }
-
+        /// <summary>
+        /// 将指定内容按照指定方式写入指定文件
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="content"></param>
+        /// <param name="mode"></param>
         public static void WriteFile(string filePath, string content, WriteMode mode)
         {
             FileMode fileMode = mode == WriteMode.WriteAll ? FileMode.OpenOrCreate : FileMode.Append;

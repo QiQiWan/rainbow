@@ -12,5 +12,9 @@ namespace rainbow
         static public FileInfo[] GetResouceList() => workapace.GetFiles();
         static public string CreateFullName(FileInfo file) => "resource/" + file.Name;
 
+
+
+
+
     }
 }
