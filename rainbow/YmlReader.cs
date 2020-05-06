@@ -1,20 +1,121 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace rainbow
 {
     /// <summary>
     /// 资源阅读器公共类,包括获取资源文件夹的文件列表,读取文件,对象处理等等
     /// </summary>
-    class YmlReader{
-        static public DirectoryInfo workapace = new DirectoryInfo( AppDomain.CurrentDomain.BaseDirectory + "resouse");
+    class YmlReader
+    {
+        static public DirectoryInfo workapace = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory + "resouse");
         //获取句子文件列表
         static public FileInfo[] GetResouceList() => workapace.GetFiles();
         static public string CreateFullName(FileInfo file) => "resource/" + file.Name;
+        static public readonly string[] FileLists = { "movies.yml", "reading.yml", "songs.yml" };
 
+        static public SModelManager InitManager()
+        {
+            SModelManager manager = new SModelManager();
+            List<SModel> list = GetModels();
+            
+            manager.AddSModels(list);
 
+            return manager;
+        }
+        static private List<SModel> GetModels()
+        {
+            List<SModel> list = new List<SModel>();
+            int i = 0;
+            foreach (var path in FileLists)
+            {
+                string fileName = "resource/" + path;
+                string origin = FileHelper.ReadFile(fileName);
 
+                SModelType type;
 
+                switch (path)
+                {
+                    case "movies.yml":
+                        type = SModelType.Movies;
+                        break;
+                    case "reading.yml":
+                        type = SModelType.Reading;
+                        break;
+                    default:
+                        type = SModelType.Songs;
+                        break;
+                }
 
+                foreach (var item in RegexHelper.MatchObj(RegexHelper.objPattern, origin))
+                {
+                    list.Add(GetModel(item, i, type));
+                    i++;
+                }
+            }
+            return list;
+        }
+        static private SModel GetModel(string origin, int count, SModelType type)
+        {
+            List<string> Attributes = new List<string>();
+
+            for (int i = 0, len = SModel.Attributes.Length; i < len; i++)
+                Attributes.Add(RegexHelper.MatchEle(RegexHelper.elepattern, SModel.Attributes[i], origin));
+
+            string ID;
+
+            if (count < 10)
+                ID = "000" + count;
+            else if (count < 100)
+                ID = "00" + count;
+            else if (count < 1000)
+                ID = "0" + count;
+            else
+                ID = count.ToString();
+            Attributes.Add(ID);
+
+            string[] AttArr = Attributes.ToArray();
+
+            return new SModel(AttArr[0], AttArr[1], AttArr[2], AttArr[3], type);
+        }
+
+    }
+    class RegexHelper
+    {
+        public static readonly string objPattern = "\\-\\s\\{[\\S\\s]*?(?=\\})";
+        public static readonly string elepattern = "{0}:[\\s]\"[\\S\\s]*?(?=\")";
+        public static List<string> MatchObj(string pattern, string origin)
+        {
+            List<string> matchList = new List<string>();
+
+            foreach (Match item in Regex.Matches(origin, pattern))
+            {
+                matchList.Add(item.Value);
+            }
+            return matchList;
+        }
+        public static List<string> MatchEles(string pattern, string eleName, string origin)
+        {
+            List<string> matchList = new List<string>();
+
+            pattern = pattern.Replace("{0}", eleName);
+
+            foreach (Match item in Regex.Matches(origin, pattern))
+            {
+                string temp = item.Value.Replace(eleName + ": \"", "");
+                matchList.Add(temp);
+            }
+            return matchList;
+        }
+        public static string MatchEle(string pattern, string eleName, string origin)
+        {
+            pattern = pattern.Replace("{0}", eleName);
+
+            string result = Regex.Match(origin, pattern).Value.Replace(eleName + ": \"", "");
+
+            return result;
+        }
     }
 }

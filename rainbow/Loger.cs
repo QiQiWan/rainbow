@@ -15,7 +15,7 @@ namespace rainbow
         /// </summary>
         static public void CheckLogFileName()
         {
-            currentLog = "log/" + DateTime.Now.ToLocalTime().ToString() + ".txt";
+            currentLog = "log/" + DateTime.Now.ToShortDateString() + ".txt";
             if(!FileHelper.FileExists(currentLog))
                 FileHelper.CreatFile(currentLog);
         }
