@@ -1,0 +1,11 @@
+G:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.deps.json
+G:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.runtimeconfig.json
+G:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.runtimeconfig.dev.json
+G:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.dll
+G:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.pdb
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.csprojAssemblyReference.cache
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.csproj.CoreCompileInputs.cache
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.AssemblyInfoInputs.cache
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.AssemblyInfo.cs
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.dll
+G:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.pdb

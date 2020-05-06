@@ -6,7 +6,7 @@ namespace rainbow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello C#.NET!");
+            Console.WriteLine(DateTime.Now.ToShortDateString());
         }
     }
 }
