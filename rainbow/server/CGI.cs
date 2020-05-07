@@ -43,21 +43,6 @@ namespace rainbow
             }
             return context;
         }
-
-        private static string CompileMain(string ID)
-        {
-            if (ID == null)
-                return CompileMain();
-            return CompileMain();
-        }
-        private static string CompileMain()
-        {
-            string index = FileHelper.ReadFile("template/main.html");
-            string backgroundUrl = "img/" + (DateTime.Now.Day % 15 + 1) + ".jpg";
-            index = index.Replace("{% backgroundUrl %}", backgroundUrl);
-            index = index.Replace("{% SModel %}", Common.manager.GetModel().ToTypedString());
-            return index;
-        }
         private static string CheckQuery(string query, string eleName)
         {
             return RegexHelper.MatchQueEle(RegexHelper.queryPattern, eleName, query);
