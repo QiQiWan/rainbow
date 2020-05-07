@@ -7,7 +7,7 @@ namespace rainbow
     class Common
     {
         public static object Lock = new object();
-        public static readonly SModelManager manager;
+        public static SModelManager manager;
         public static RainbowServer server;
 
         static Common()
@@ -21,6 +21,9 @@ namespace rainbow
         public static void InitServer()
         {
             server = new RainbowServer();
+        }
+        public static void InitManager(){
+            manager = YmlReader.InitManager();
         }
         public static void init()
         {

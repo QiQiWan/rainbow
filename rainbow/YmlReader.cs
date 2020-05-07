@@ -75,7 +75,7 @@ namespace rainbow
     class RegexHelper
     {
         public static readonly string objPattern = "\\-\\s\\{[\\S\\s]*?(?=\\})";
-        public static readonly string elePattern = "{0}:[\\s]\"[\\S\\s]*?(?=\")";
+        public static readonly string elePattern = "{0}:[\\s]\"[\\S\\s]+?(?=\")";
         public static readonly string routerPattern = "/[(\\w|/|.)]*:[\\s][\\w|.|/]+";
         public static readonly string queryPattern = "{0}=[\\w]+";
         public static List<string> MatchObj(string pattern, string origin)
@@ -105,7 +105,9 @@ namespace rainbow
         {
             pattern = pattern.Replace("{0}", eleName);
 
-            string result = Regex.Match(origin, pattern).Value.Replace(eleName + ": \"", "");
+            Match match = Regex.Match(origin, pattern);
+
+            string result = match.Value.Replace(eleName + ": \"", "");
 
             return result;
         }
