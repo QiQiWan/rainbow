@@ -15,7 +15,7 @@ namespace rainbow
         /// </summary>
         static public void CheckLogFileName()
         {
-            currentLog = "log/" + DateTime.Now.ToShortDateString() + ".txt";
+            currentLog = "log/" + DateTime.Now.ToShortDateString().Replace('/', '-') + ".txt";
             if(!FileHelper.FileExists(currentLog))
                 FileHelper.CreatFile(currentLog);
         }
@@ -61,6 +61,12 @@ namespace rainbow
             }
             infotext += info;
             Console.WriteLine(infotext);
+        }
+        static public void LogWrong(string Wrong){
+            string infotext = DateTime.Now.ToLocalTime() + " [wrong] " + Wrong;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(infotext);
+            WriteLogs(infotext);
         }
         /// <summary>
         /// 检查队列长度,达到50即写入日志文件

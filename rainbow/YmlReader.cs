@@ -20,7 +20,7 @@ namespace rainbow
         {
             SModelManager manager = new SModelManager();
             List<SModel> list = GetModels();
-            
+
             manager.AddSModels(list);
 
             return manager;
@@ -28,7 +28,7 @@ namespace rainbow
         static private List<SModel> GetModels()
         {
             List<SModel> list = new List<SModel>();
-            int i = 0;
+            int i = 1000;
             foreach (var path in FileLists)
             {
                 string fileName = "resource/" + path;
@@ -62,19 +62,9 @@ namespace rainbow
             List<string> Attributes = new List<string>();
 
             for (int i = 0, len = SModel.Attributes.Length; i < len; i++)
-                Attributes.Add(RegexHelper.MatchEle(RegexHelper.elepattern, SModel.Attributes[i], origin));
+                Attributes.Add(RegexHelper.MatchEle(RegexHelper.elePattern, SModel.Attributes[i], origin));
 
-            string ID;
-
-            if (count < 10)
-                ID = "000" + count;
-            else if (count < 100)
-                ID = "00" + count;
-            else if (count < 1000)
-                ID = "0" + count;
-            else
-                ID = count.ToString();
-            Attributes.Add(ID);
+            Attributes.Add(count.ToString());
 
             string[] AttArr = Attributes.ToArray();
 
@@ -85,7 +75,9 @@ namespace rainbow
     class RegexHelper
     {
         public static readonly string objPattern = "\\-\\s\\{[\\S\\s]*?(?=\\})";
-        public static readonly string elepattern = "{0}:[\\s]\"[\\S\\s]*?(?=\")";
+        public static readonly string elePattern = "{0}:[\\s]\"[\\S\\s]*?(?=\")";
+        public static readonly string routerPattern = "/[\\w|/]+:[\\s][\\S]+";
+        public static readonly string queryPattern = "[\\w]+=[\\w]";
         public static List<string> MatchObj(string pattern, string origin)
         {
             List<string> matchList = new List<string>();
@@ -116,6 +108,11 @@ namespace rainbow
             string result = Regex.Match(origin, pattern).Value.Replace(eleName + ": \"", "");
 
             return result;
+        }
+        public static bool Test(string pattern, string origin)
+        {
+            if (Regex.Matches(origin, pattern).Count < 1) return false;
+            else return true;
         }
     }
 }

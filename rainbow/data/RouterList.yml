@@ -1,0 +1,7 @@
+# 静态文件路由表
+/: template/main.html
+/js/FunnyTitle.js: /static/js/FunnyTitle.js
+/js/main.js: /static/js/main.js
+/css/main.js: /static/css/main.js
+/css/custom.js: /static/css/custom.js
+/GetJson/: /GetJson/

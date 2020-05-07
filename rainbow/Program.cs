@@ -4,10 +4,32 @@ namespace rainbow
 {
     class Program
     {
+        static RainbowServer server;
         static void Main(string[] args)
         {
+            //初始化全局变量
             Common.init();
-            Console.WriteLine(Common.manager.GetModel().ToString());
+            //引用全局服务器
+            server = Common.server;
+            //添加服务监听地址
+            server.AddDomain("http://127.0.0.1:8888/");
+
+            Loger.Log("The server is running at: http:/127.0.0.1:8888/");
+
+            //启动服务器,监控服务状态
+            try
+            {
+                server.Start();
+                server.WaitRequest();
+            }
+            catch (Exception err)
+            {
+                Loger.LogWrong(err.Message);
+            }
+            finally
+            {
+                server.Stop();
+            }
         }
     }
 }

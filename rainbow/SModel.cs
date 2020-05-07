@@ -57,6 +57,11 @@ namespace rainbow
             json += "}";
             return json;
         }
+        public string ToTypedString(){
+            string typed = "";
+            typed += String.Format("{0} \r\n ————{1}《{2}》", content, author, source);
+            return typed;
+        }
     }
 
     /// <summary>
@@ -146,6 +151,13 @@ namespace rainbow
             }
             while(temp.type == type);
             return temp;
+        }
+        public SModel GetModel(string id){
+            foreach(var item in total){
+                if(item.ID == id)
+                    return item;
+            }
+            return GetModel();
         }
     }
     public enum SModelType { Reading, Movies, Songs };
