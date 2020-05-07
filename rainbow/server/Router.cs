@@ -7,7 +7,7 @@ namespace rainbow
     /// </summary>
     public class Router
     {
-        static private Dictionary<string, string> RouterLib = new Dictionary<string, string>();
+        static  Dictionary<string, string> RouterLib = new Dictionary<string, string>();
 
         static public int GetCount() => RouterLib.Count;
         static public void Add(string router, string source)
@@ -22,6 +22,8 @@ namespace rainbow
         }
         static public string SearchRouter(string router)
         {
+
+            Dictionary<string, string> temp =  RouterLib;
             if (RouterLib.ContainsKey(router))
                 return RouterLib[router];
             else

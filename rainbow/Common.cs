@@ -6,8 +6,9 @@ namespace rainbow
     /// </summary>
     class Common
     {
+        public static object Lock = new object();
         public static readonly SModelManager manager;
-        public static  RainbowServer server;
+        public static RainbowServer server;
 
         static Common()
         {
@@ -17,7 +18,8 @@ namespace rainbow
             InitServer();
             Loger.Log("服务器初始化完成!");
         }
-        public static void InitServer(){
+        public static void InitServer()
+        {
             server = new RainbowServer();
         }
         public static void init()

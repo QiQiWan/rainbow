@@ -12,7 +12,6 @@ namespace rainbow
         private static FileStream fileStream;
         private static StreamReader streamReader;
         private static StreamWriter streamWriter;
-        private static BinaryReader binaryReader;
         /// <summary>
         /// 读取指定文本文件
         /// </summary>
@@ -74,15 +73,18 @@ namespace rainbow
         {
             if (!File.Exists(filePath))
                 CreatFile(filePath);
-            using (fileStream = new FileStream(filePath, FileMode.Open))
+            lock (Common.Lock)
             {
-                //文件指针定位到文件尾部
-                if (mode == WriteMode.Append)
-                    fileStream.Position = fileStream.Length;
-                streamWriter = new StreamWriter(fileStream);
-                streamWriter.WriteLine(content);
-                streamWriter.Close();
-                fileStream.Close();
+                using (fileStream = new FileStream(filePath, FileMode.Open))
+                {
+                    //文件指针定位到文件尾部
+                    if (mode == WriteMode.Append)
+                        fileStream.Position = fileStream.Length;
+                    streamWriter = new StreamWriter(fileStream);
+                    streamWriter.WriteLine(content);
+                    streamWriter.Close();
+                    fileStream.Close();
+                }
             }
         }
         public static bool FileExists(string filePath) => File.Exists(filePath);

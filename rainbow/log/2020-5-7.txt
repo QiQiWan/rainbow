@@ -58,3 +58,1172 @@
 2020/5/7 17:18:54 [info] 句子文件列表更新完成!
 2020/5/7 17:18:54 [info] 服务器初始化完成!
 2020/5/7 17:18:54 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:24:28 [info] 句子文件列表更新完成!
+2020/5/7 17:24:28 [info] 服务器初始化完成!
+2020/5/7 17:24:28 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:30:06 [info] 句子文件列表更新完成!
+2020/5/7 17:30:06 [info] 服务器初始化完成!
+2020/5/7 17:30:06 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:31:01 [info] 已将客户端重定向至主页!
+2020/5/7 17:31:37 [info] 句子文件列表更新完成!
+2020/5/7 17:31:37 [info] 服务器初始化完成!
+2020/5/7 17:31:37 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:31:39 [info] 已将客户端重定向至主页!
+2020/5/7 17:33:06 [info] 句子文件列表更新完成!
+2020/5/7 17:33:06 [info] 服务器初始化完成!
+2020/5/7 17:33:06 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:34:41 [info] 句子文件列表更新完成!
+2020/5/7 17:34:41 [info] 服务器初始化完成!
+2020/5/7 17:34:41 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:44:43 [info] 句子文件列表更新完成!
+2020/5/7 17:44:43 [info] 服务器初始化完成!
+2020/5/7 17:44:43 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:46:37 [info] 已将客户端重定向至主页!
+2020/5/7 17:46:59 [info] 句子文件列表更新完成!
+2020/5/7 17:46:59 [info] 服务器初始化完成!
+2020/5/7 17:46:59 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:47:59 [info] 句子文件列表更新完成!
+2020/5/7 17:47:59 [info] 服务器初始化完成!
+2020/5/7 17:48:00 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:49:12 [info] 句子文件列表更新完成!
+2020/5/7 17:49:12 [info] 服务器初始化完成!
+2020/5/7 17:49:12 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:50:07 [info] 句子文件列表更新完成!
+2020/5/7 17:50:07 [info] 服务器初始化完成!
+2020/5/7 17:50:07 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:50:32 [info] 已将客户端重定向至主页!
+2020/5/7 17:51:29 [info] 句子文件列表更新完成!
+2020/5/7 17:51:29 [info] 服务器初始化完成!
+2020/5/7 17:51:29 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:52:15 [info] 句子文件列表更新完成!
+2020/5/7 17:52:15 [info] 服务器初始化完成!
+2020/5/7 17:52:15 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:52:16 [info] 已将客户端重定向至主页!
+2020/5/7 17:52:16 [info] 已将客户端重定向至主页!
+2020/5/7 17:53:43 [info] 句子文件列表更新完成!
+2020/5/7 17:53:43 [info] 服务器初始化完成!
+2020/5/7 17:53:43 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 17:53:51 [info] 已将客户端重定向至主页!
+2020/5/7 17:53:51 [info] 已将客户端重定向至主页!
+2020/5/7 17:53:51 [info] 已将客户端重定向至主页!
+2020/5/7 17:54:10 [info] 已将客户端重定向至主页!
+2020/5/7 17:54:54 [info] 已将客户端重定向至主页!
+2020/5/7 17:57:21 [info] 已将客户端重定向至主页!
+2020/5/7 17:57:21 [info] 已将客户端重定向至主页!
+2020/5/7 17:57:26 [info] 已将客户端重定向至主页!
+2020/5/7 17:58:35 [info] 已将客户端重定向至主页!
+2020/5/7 17:59:05 [info] 已将客户端重定向至主页!
+2020/5/7 18:40:20 [info] 句子文件列表更新完成!
+2020/5/7 18:40:20 [info] 服务器初始化完成!
+2020/5/7 18:40:20 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:40:53 [info] 句子文件列表更新完成!
+2020/5/7 18:40:53 [info] 服务器初始化完成!
+2020/5/7 18:40:53 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:41:50 [info] 句子文件列表更新完成!
+2020/5/7 18:41:50 [info] 服务器初始化完成!
+2020/5/7 18:41:50 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:48:35 [info] 句子文件列表更新完成!
+2020/5/7 18:48:35 [info] 服务器初始化完成!
+2020/5/7 18:48:35 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:49:30 [info] 句子文件列表更新完成!
+2020/5/7 18:49:30 [info] 服务器初始化完成!
+2020/5/7 18:49:30 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:49:34 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:49:34 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:49:42 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:49:43 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:49:43 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:49:43 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:49:43 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:49:43 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:49:43 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:49:43 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:49:43 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:49:44 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:49:44 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:49:44 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:49:44 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:49:44 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:49:44 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:49:44 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:16 [info] 句子文件列表更新完成!
+2020/5/7 18:51:16 [info] 服务器初始化完成!
+2020/5/7 18:51:16 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:51:18 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:18 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:18 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:18 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:19 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:19 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:19 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:19 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:19 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:19 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:20 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:20 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:20 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:20 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:20 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:20 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:20 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:20 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:20 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:20 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:20 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:20 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:20 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:21 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:21 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:21 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:21 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:21 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:21 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:21 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:21 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:21 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:21 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:21 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:21 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:22 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:22 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:22 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:22 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:22 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:22 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:22 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:22 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:22 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:22 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:22 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:22 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:23 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:23 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:23 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:23 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:23 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:23 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:23 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:23 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:23 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:23 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:23 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:23 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:23 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:24 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:24 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:24 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:24 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:24 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:24 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:24 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:24 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:24 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:24 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:24 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:24 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:25 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:25 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:25 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:25 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:25 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:25 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:25 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:25 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:25 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:25 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:25 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:26 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:26 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:26 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:26 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:26 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:26 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:26 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:26 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:26 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:26 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:26 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:27 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:27 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:27 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:27 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:27 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:27 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:27 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:27 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:27 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:27 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:27 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:27 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:28 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:28 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:28 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:28 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:28 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:28 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:32 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:32 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:33 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:34 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:34 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:34 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:34 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:34 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:34 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:34 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:34 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:51:34 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:34 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:35 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:35 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:35 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:35 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:35 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:35 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:35 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:35 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:35 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:36 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:36 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:36 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:36 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:36 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:36 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:36 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:36 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:37 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:37 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:37 [info] {"Content": "Come on ready to be in love,a whole life .",
+"Author": "",
+"Source": "WALL.E"
+"ID": "1008"
+}
+2020/5/7 18:51:37 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:37 [info] {"Content": "The real death is that no one in the world remembers you.",
+"Author": "",
+"Source": "CoCo"
+"ID": "1005"
+}
+2020/5/7 18:51:38 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:51:38 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:38 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:51:38 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:38 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:51:38 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:51:38 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:38 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:38 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:51:38 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:51:38 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:51:39 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:51:39 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:51:39 [info] {"Content": " Mankind was born on Earth,It was never meant to die here.",
+"Author": "",
+"Source": "Interstellar"
+"ID": "1010"
+}
+2020/5/7 18:51:39 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:52:23 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:52:26 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:52:35 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:52:50 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:53:02 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:53:49 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:54:33 [info] 句子文件列表更新完成!
+2020/5/7 18:54:33 [info] 服务器初始化完成!
+2020/5/7 18:54:33 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/7 18:54:44 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:44 [info] {"Content": "I am Dawson,Rose Dawson.",
+"Author": "",
+"Source": "Titanic"
+"ID": "1001"
+}
+2020/5/7 18:54:46 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:46 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:54:47 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:47 [info] {"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun"
+"ID": "1011"
+}
+2020/5/7 18:54:47 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:47 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:54:47 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:47 [info] {"Content": "",
+"Author": "",
+"Source": "Coraline"
+"ID": "1000"
+}
+2020/5/7 18:54:47 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:48 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:54:48 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:48 [info] {"Content": "you have a dream,you got to protect it.",
+"Author": "",
+"Source": "The Pursuit of Happyness"
+"ID": "1002"
+}
+2020/5/7 18:54:48 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:48 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:54:48 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:48 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:54:58 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:54:58 [info] {"Content": "Life was like a box of chocolates.",
+"Author": "",
+"Source": "Forrest Gump"
+"ID": "1003"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "",
+"Source": "Wonder"
+"ID": "1009"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "And park it next to the falls.",
+"Author": "",
+"Source": "Up"
+"ID": "1006"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:01 [info] {"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "",
+"Source": "Mary and Max"
+"ID": "1007"
+}
+2020/5/7 18:55:01 [info] {"Content": "I want you to want me to keep your dream!",
+"Author": "GALA",
+"Source": "Young for you"
+"ID": "1012"
+}
+2020/5/7 18:55:02 [info] {"Content": "get busy living or get busy dying.",
+"Author": "",
+"Source": "The Shawshank Redemption"
+"ID": "1004"
+}
+2020/5/7 18:55:50 [info] 句子文件列表更新完成!
+2020/5/7 18:55:50 [info] 服务器初始化完成!
+2020/5/7 18:55:50 [info] The server is running at: http:/127.0.0.1:8888/

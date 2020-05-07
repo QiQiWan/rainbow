@@ -34,7 +34,6 @@ namespace rainbow
         public void Abort()
         {
             BeforeAbort();
-            thread.Abort();
         }
         abstract public void BeforeAbort();
     }

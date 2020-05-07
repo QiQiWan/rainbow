@@ -55,17 +55,13 @@ namespace rainbow
 
             string responseString = CGI.GetResponse(result.Request);
 
-            if(responseString == null){
-                response.Redirect(result.Request.Url.Authority + "/");
-                Loger.Log("已将客户端重定向至主页!");
-                return;
-            }
-
             byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
             response.ContentLength64 = buffer.Length;
             System.IO.Stream output = response.OutputStream;
             output.Write(buffer, 0, buffer.Length);
             output.Close();
+
+            Loger.Log(responseString);
         }
 
         public void Stop()

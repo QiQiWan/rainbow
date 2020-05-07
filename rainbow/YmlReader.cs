@@ -76,8 +76,8 @@ namespace rainbow
     {
         public static readonly string objPattern = "\\-\\s\\{[\\S\\s]*?(?=\\})";
         public static readonly string elePattern = "{0}:[\\s]\"[\\S\\s]*?(?=\")";
-        public static readonly string routerPattern = "/[\\w|/]+:[\\s][\\S]+";
-        public static readonly string queryPattern = "[\\w]+=[\\w]";
+        public static readonly string routerPattern = "/[(\\w|/|.)]*:[\\s][\\w|.|/]+";
+        public static readonly string queryPattern = "{0}=[\\w]+";
         public static List<string> MatchObj(string pattern, string origin)
         {
             List<string> matchList = new List<string>();
@@ -113,6 +113,14 @@ namespace rainbow
         {
             if (Regex.Matches(origin, pattern).Count < 1) return false;
             else return true;
+        }
+        public static string MatchQueEle(string pattern, string eleName, string origin)
+        {
+            pattern = pattern.Replace("{0}", eleName);
+
+            string result = Regex.Match(origin, pattern).Value.Replace(eleName + "=", "");
+
+            return result;
         }
     }
 }

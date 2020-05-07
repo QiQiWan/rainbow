@@ -5,8 +5,14 @@ namespace rainbow
     class Program
     {
         static RainbowServer server;
+        /// <summary>
+        /// 主程序函数入口
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
+
+
             //初始化全局变量
             Common.init();
             //引用全局服务器

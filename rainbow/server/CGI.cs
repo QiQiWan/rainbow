@@ -13,36 +13,37 @@ namespace rainbow
             Loger.Log("客户端: " + request.RemoteEndPoint.Address + "  已连接", LogerType.Info);
 
             Uri uri = request.Url;
-            string domain = uri.Authority;
             string urlPath = uri.AbsolutePath;
             string query = uri.Query;
 
-            string responseString = "";
+            string id = CheckQuery(query, "ID");
+            string responseString = Router.SearchRouter(urlPath);
+            if (responseString == null)
+                responseString = "/GetJson/";
+            string context;
 
-
-            if ((responseString = Router.SearchRouter(urlPath)) == null)
-                return null;
-
-            //响应数据流
-            string context = "";
-
-            RequestType requestType = CheckFileType(responseString);
-
-            switch (requestType)
+            //线程锁
+            lock (Common.Lock)
             {
-                case RequestType.HTML:
-                    context = CompileMain();
-                    break;
-                case RequestType.JSON:
-                    context = Common.manager.GetModel().ToJsonString();
-                    break;
-                default:
-                    context = FileHelper.ReadFile(responseString);
-                    break;
+                switch (responseString)
+                {
+                    case "/GetJson/":
+                        context = Common.manager.GetModel(id).ToJsonString();
+                        break;
+                    case "/songs/":
+                        context = Common.manager.GetModel(SModelType.Songs).ToJsonString();
+                        break;
+                    case "/movies/":
+                        context = Common.manager.GetModel(SModelType.Movies).ToJsonString();
+                        break;
+                    default:
+                        context = Common.manager.GetModel(SModelType.Reading).ToJsonString();
+                        break;
+                }
             }
             return context;
         }
-        
+
         private static string CompileMain(string ID)
         {
             if (ID == null)
@@ -51,36 +52,15 @@ namespace rainbow
         }
         private static string CompileMain()
         {
-            string index = FileHelper.ReadFile("resource/main.html");
-            string backgroundUrl = "static/img/" + DateTime.Now.Day % 15 + 1 + ".jpg";
+            string index = FileHelper.ReadFile("template/main.html");
+            string backgroundUrl = "img/" + (DateTime.Now.Day % 15 + 1) + ".jpg";
             index = index.Replace("{% backgroundUrl %}", backgroundUrl);
             index = index.Replace("{% SModel %}", Common.manager.GetModel().ToTypedString());
             return index;
         }
-
-        private static RequestType CheckFileType(string path)
+        private static string CheckQuery(string query, string eleName)
         {
-            path = path.ToLower();
-            if (path.IndexOf(".htm") >= 0)
-                return RequestType.HTML;
-            if (path.IndexOf(".js") >= 0)
-                return RequestType.JS;
-            if (path.IndexOf(".css") >= 0)
-                return RequestType.CSS;
-            if (path.IndexOf(".jpg") >= 0)
-                return RequestType.IMG;
-            return RequestType.JSON;
-        }
-        private static Dictionary<string, string> CheckQuery(string query)
-        {
-            Dictionary<string, string> querys = new Dictionary<string, string>();
-            foreach (string item in RegexHelper.MatchObj(RegexHelper.queryPattern, query))
-            {
-                string[] temp = item.Split('=');
-                querys.Add(temp[0], temp[1]);
-            }
-            return querys;
+            return RegexHelper.MatchQueEle(RegexHelper.queryPattern, eleName, query);
         }
     }
-    enum RequestType { HTML, JS, CSS, IMG, JSON };
 }

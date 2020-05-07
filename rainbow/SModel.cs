@@ -21,7 +21,7 @@ namespace rainbow
         /// 需要从文件中读取的属性列表
         /// </summary>
         /// <value></value>
-        public static string[] Attributes = {"content", "author", "source"};
+        public static string[] Attributes = { "content", "author", "source" };
         /// <summary>
         /// 使用new以初始化句子模型
         /// </summary>
@@ -52,14 +52,15 @@ namespace rainbow
             string json = "{";
             json += String.Format("\"Content\": \"{0}\",", content) + Environment.NewLine;
             json += String.Format("\"Author\": \"{0}\",", author) + Environment.NewLine;
-            json += String.Format("\"Source\": \"{0}\"", source) + Environment.NewLine;
+            json += String.Format("\"Source\": \"{0}\",", source) + Environment.NewLine;
             json += String.Format("\"ID\": \"{0}\"", ID) + Environment.NewLine;
             json += "}";
             return json;
         }
-        public string ToTypedString(){
+        public string ToTypedString()
+        {
             string typed = "";
-            typed += String.Format("{0} \r\n ————{1}《{2}》", content, author, source);
+            typed += String.Format("{0} <br /> ————{1}《{2}》", content, author, source);
             return typed;
         }
     }
@@ -80,7 +81,8 @@ namespace rainbow
         {
             init();
         }
-        public void init(){
+        public void init()
+        {
             reading.Clear();
             movies.Clear();
             songs.Clear();
@@ -105,9 +107,11 @@ namespace rainbow
                     break;
             }
         }
-        public void AddSModels(List<SModel> list){
-            List<SModel> temp = new List<SModel>();;
-            foreach(var item in list){
+        public void AddSModels(List<SModel> list)
+        {
+            List<SModel> temp = new List<SModel>(); ;
+            foreach (var item in list)
+            {
                 AddSModel(item);
                 temp.Add(item);
             }
@@ -140,22 +144,28 @@ namespace rainbow
         /// 随机获取句子
         /// </summary>
         /// <returns></returns>
-        public SModel GetModel(){
+        public SModel GetModel()
+        {
             int random = new Random().Next(0, total.Length);
             return total[random];
         }
-        public SModel GetModel(SModelType type){
+        public SModel GetModel(SModelType type)
+        {
             SModel temp;
-            do{
+            do
                 temp = GetModel();
-            }
-            while(temp.type == type);
+            while (temp.type != type);
             return temp;
         }
-        public SModel GetModel(string id){
-            foreach(var item in total){
-                if(item.ID == id)
-                    return item;
+        public SModel GetModel(string id)
+        {
+            if (id != null)
+            {
+                foreach (var item in total)
+                {
+                    if (item.ID == id)
+                        return item;
+                }
             }
             return GetModel();
         }
