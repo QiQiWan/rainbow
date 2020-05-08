@@ -8,7 +8,8 @@ namespace rainbow_site
         public static DateTime date = DateTime.Now;
 
         public static void InitBGImg(){
-            backgroundImg = "/img/" + new Random().Next(1, 16) + ".jpg";
+            string[] filePaths = FileHelper.GetFileList("wwwroot/img/");
+            backgroundImg = "/img/" + filePaths[new Random().Next(0, filePaths.Length)];
         }
         /// <summary>
         /// 每天更新背景图片
