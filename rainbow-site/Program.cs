@@ -19,6 +19,7 @@ namespace rainbow_site
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://127.0.0.1:5002", "http://127.0.0.1:5003")
                 .UseStartup<Startup>();
     }
 }
