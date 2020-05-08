@@ -54,3 +54,48 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+img{
+  width: 100%;
+  margin: auto;
+}
+
+.markdown-body {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  color: #2c3e50;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  color: #1a202c;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  margin-top: 2em;
+}
+.markdown-body h1:focus,
+.markdown-body h2:focus,
+.markdown-body h3:focus,
+.markdown-body h4:focus,
+.markdown-body h5:focus,
+.markdown-body h6:focus {
+  outline: none;
+}
+
+.post-content h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  display: block;
+  content: "";
+  margin-top: -4rem;
+  height: 4rem;
+  width: 1px;
+  visibility: hidden;
+}

@@ -1,0 +1,85 @@
+﻿.BG-img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  -webkit-filter: brightness(78%);
+  filter: brightness(78%);
+}
+.no-bg {
+  background: none;
+  opacity: 1;
+}
+.navbar {
+  color: #eee;
+}
+.v-center {
+  position: relative;
+  top: 24rem;
+}
+.v-top {
+  position: relative;
+  top: 16rem;
+}
+
+#board {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  z-index: 3;
+  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 15px 0 rgba(71, 62, 62, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: 28rem;
+}
+
+@media screen and (max-width: 1960px) {
+  #board {
+    padding: 0 4.2rem 0 4.2rem;
+    width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #board {
+    width: 100%;
+    padding: 0 3.5rem 0 3.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #board {
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #board {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .container {
+    padding: 0 0 0 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadowinset: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
