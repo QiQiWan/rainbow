@@ -48,8 +48,10 @@ namespace rainbow_site
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    name: "Home",
+                    template: "/{action=Index}/{id?}",
+                    new { controller = "Home" }
+                );
             });
         }
     }

@@ -8,7 +8,7 @@
 window.addEventListener("load", res => {
    setTimeout(() => {
        
-   }, 60000);  GetRequest("/Home/GetJson")
+   }, 60000);  GetRequest("/GetJson")
 })
 
 function PageReplace(Id, jsonString) {
@@ -21,11 +21,18 @@ function PageReplace(Id, jsonString) {
 
 function GetRequest(url) {
     var request = new XMLHttpRequest();
-    request.open('GET', url);
+    var ID = getQueryString(ID) || "";
+    request.open('GET', url + "?ID=" + ID);
     request.send();
     var result = "";
     request.onreadystatechange = (res) => {
         if (request.readyState == 4 && request.status == 200)
             PageReplace("subtitle", request.responseText);
     }
+}
+
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
 }

@@ -23,8 +23,11 @@ namespace rainbow_site.Controllers
             return View();
         }
 
-        public string GetJson(int ID = 10000){
+        public string GetJson(){
+
+            string ID = Request.Query["ID"];
             string url = $"https://api.eatrice.top/?ID={ID}";
+
             string Json = WebHelper.Request(url);
             return Json;
         }
