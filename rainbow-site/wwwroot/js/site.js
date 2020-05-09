@@ -3,14 +3,6 @@
 
 // Write your Javascript code.
 
-
-
-window.addEventListener("load", res => {
-   setTimeout(() => {
-       
-   }, 60000);  GetRequest("/GetJson")
-})
-
 function PageReplace(Id, jsonString) {
     var container = document.getElementById(Id);
     var SModel = JSON.parse(jsonString);
@@ -21,7 +13,7 @@ function PageReplace(Id, jsonString) {
 
 function GetRequest(url) {
     var request = new XMLHttpRequest();
-    var ID = getQueryString(ID) || "";
+    var ID = getQueryString("ID") || "";
     request.open('GET', url + "?ID=" + ID);
     request.send();
     var result = "";
@@ -36,3 +28,12 @@ function getQueryString(name) {
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]); return null;
 }
+
+function TimeTick(){
+    GetRequest("/GetJson");
+    //设置定时切换
+    setTimeout(() => {
+        GetRequest("/GetJson");
+    }, 60000);
+}
+TimeTick();

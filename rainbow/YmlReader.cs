@@ -107,7 +107,7 @@ namespace rainbow
 
             Match match = Regex.Match(origin, pattern);
 
-            string result = match.Value.Replace(eleName + ": \"", "");
+            string result = match.Value.Replace(eleName + ": \"", "").Trim();
 
             return result;
         }
