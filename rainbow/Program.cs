@@ -11,8 +11,6 @@ namespace rainbow
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
-
             //初始化全局变量
             Common.init();
             //引用全局服务器
@@ -43,6 +41,5 @@ namespace rainbow
             }
         }
         static void RefreshCatch(object source, System.Timers.ElapsedEventArgs e) => Common.InitManager();
-
     }
 }
