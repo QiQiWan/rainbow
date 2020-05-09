@@ -1,4 +1,24 @@
 - {
+  content: "Press closer,little Nightingale,cried the Tree.",
+  author: "Oscar Wilde",
+  source: "Nightingale and rose"
+}
+- {
+  content: "I doubt a man who was so overwhelmed by others perspectives.",
+  author: "Sheryl Sandberg",
+  source: "Lean In"
+}
+- {
+  content: "I think,therefore I am.",
+  author: "Rene Descartes",
+  source: "Discourse on method"
+}
+- {
+  content: "A single man in possession of good fortune must be in want of a wife.",
+  author: "Jane Austen",
+  source: "Pride and prejudice"
+}
+- {
   content: "Had I not seen the Sun,I could have borne the shade.",
   author: "Emily Dickinson",
   source: "Had I not seen the Sun"

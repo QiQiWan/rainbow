@@ -22,8 +22,8 @@ namespace rainbow
 
             Loger.Log("The server is running at: http:/127.0.0.1:8888/");
 
-            //设置定时器，一个小时刷新一次句子管理器
-            TimeTick tick = new TimeTick(3600000);
+            //设置定时器，一个分钟刷新一次句子管理器
+            TimeTick tick = new TimeTick(60000); //单位毫秒
             Handle handle = new Handle(RefreshCatch);
             tick.Start(handle);
 
