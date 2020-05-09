@@ -13,7 +13,7 @@ function PageReplace(Id, jsonString) {
 
 function GetRequest(url) {
     var request = new XMLHttpRequest();
-    var ID = getQueryString(ID) || "";
+    var ID = getQueryString("ID") || "";
     request.open('GET', url + "?ID=" + ID);
     request.send();
     var result = "";
