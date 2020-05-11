@@ -1,0 +1,51 @@
+﻿@{
+ViewData["Title"] = "Rainbow - About";
+ViewData["FooterClass"] = "position";
+ViewData["LangLink"] = "/About/";
+}
+
+<div class="text-center v-top">
+    <div class="h2">
+        <p class="h3 text-white" id="subtitle">
+        </p>
+    </div>
+</div>
+
+<div class="py-5" id="board">
+    <div class="post-content mx-auto" id="post">
+        <article class="markdown-body">
+
+        @* 这里存放英文版的关于页html *@
+
+
+        </article>
+        <div class="comments" id="comments">
+            <div id="vcomments"></div>
+            <script src="https://cdn.staticfile.org/valine/1.4.4/Valine.min.js"></script>
+            <script type="text/javascript">
+                console.log('评论正在加载...');
+                new Valine({
+                    el: "#vcomments",
+                    app_id: "ut4YhjXKhs59W7h1ljDfgOAG-gzGzoHsz",
+                    app_key: "dzKTc4w4K1maxEg8E5243rrH",
+                    placeholder: "Waiting for your Sharing^0^\n(支持MarkDown语法)",
+                    path: window.location.pathname,
+                    avatar: "retro",
+                    meta: ["nick", "mail", "link"],
+                    pageSize: "10",
+                    lang: "zh-CN",
+                    highlight: true,
+                    recordIP: true,
+                    serverURLs: "",
+                });
+                console.log('评论加载完成');
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank"
+                    rel="nofollow noopener noopener">comments
+                    powered by Valine.</a></noscript>
+
+        </div>
+    </div>
+</div>
+
+<br />

@@ -57,4 +57,7 @@ G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\rainbow-si
 G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\rainbow-site.dll
 G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\rainbow-site.pdb
 G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\rainbow-site.csproj.CopyComplete
-G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\Razor\Views\Home\Doc.g.cshtml.cs
+G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\Razor\Views\Home\About_en.g.cshtml.cs
+G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index_en.g.cshtml.cs
+G:\study\C#实验\初期\rainbow\rainbow-site\obj\Debug\netcoreapp2.2\Razor\Views\Home\add.g.cshtml.cs

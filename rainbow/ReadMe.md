@@ -3,6 +3,8 @@
 
 一朵彩虹是我们在平时的学习阅读或其他文学作品中记录的优美的名言句子，希望它能像彩虹一样，美丽天空，温暖人心。
 
+`rainbow` 是数据接口API服务器，通过使用 `HttpListener` 监听 http 请求，并返回对应的结果。
+
 `resource/` 为句子库，数据文件格式为 `yml` ，补充新增句子请参照 `yml` 数组的语法格式。[YAML 语言教程](https://www.ruanyifeng.com/blog/2016/07/yaml.html)
 
 其中：

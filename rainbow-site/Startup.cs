@@ -49,8 +49,8 @@ namespace rainbow_site
             {
                 routes.MapRoute(
                     name: "Home",
-                    template: "/{action=Index}/{id?}",
-                    new { controller = "Home" }
+                    template: "/{action}/{lang}",
+                    new { controller = "Home", action = "Index", lang = "zh-cn" }
                 );
             });
         }

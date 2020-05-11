@@ -6,3 +6,5 @@
 /songs: /songs/
 /movies: /movies/
 /reading: /reading/
+/GetAll: /GetAll/
+/GetAll/: /GetAll/

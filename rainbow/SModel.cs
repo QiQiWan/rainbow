@@ -49,7 +49,7 @@ namespace rainbow
         }
         public string ToJsonString()
         {
-            string json = "{";
+            string json = "{" + Environment.NewLine;
             json += String.Format("\"Content\": \"{0}\",", content) + Environment.NewLine;
             json += String.Format("\"Author\": \"{0}\",", author) + Environment.NewLine;
             json += String.Format("\"Source\": \"{0}\",", source) + Environment.NewLine;
@@ -80,6 +80,11 @@ namespace rainbow
         public SModelManager()
         {
             init();
+        }
+        public SModelManager(List<SModel> list)
+        {
+            init();
+            AddSModels(list);
         }
         public void init()
         {
@@ -116,6 +121,7 @@ namespace rainbow
                 temp.Add(item);
             }
             total = temp.ToArray();
+            GetAllModel();
         }
         /// <summary>
         /// 获取句子总数量
@@ -168,6 +174,25 @@ namespace rainbow
                 }
             }
             return GetModel();
+        }
+        /// <summary>
+        /// 获取所有的句子字符串列表
+        /// </summary>
+        /// <returns></returns>
+        
+        public string AllModelString;
+        public string GetAllModel()
+        {
+            string json = "{\"models\": [";
+            for (int i = 0, len = GetCount(); i < len; i++)
+            {
+                if (i < len - 1)
+                    json += $"{total[i].ToJsonString()},{Environment.NewLine}";
+                else
+                    json += $"{total[i].ToJsonString()}";
+            }
+            json += "]}";
+            return AllModelString = json;
         }
     }
     public enum SModelType { Reading, Movies, Songs };

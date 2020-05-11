@@ -22,7 +22,7 @@ namespace rainbow
         public void Start()
         {
             if(domainList.Count < 1)
-                domainList.Add("http://127.0.0.1:8888");
+                domainList.Add(FileHelper.ReadFile("server/host"));
             foreach (var item in domainList)
                 server.Prefixes.Add(item);
             //初始化路由列表
@@ -61,7 +61,7 @@ namespace rainbow
             output.Write(buffer, 0, buffer.Length);
             output.Close();
 
-            Loger.Log(responseString);
+            Loger.Log(result.Request.Url.AbsolutePath);
         }
 
         public void Stop()

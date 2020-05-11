@@ -2971,11 +2971,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\Doc.cshtml",
-      "TargetPath": "Views\\Home\\Doc.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -2991,8 +2986,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\add.cshtml",
+      "TargetPath": "Views\\Home\\add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\About_en.cshtml",
+      "TargetPath": "Views\\Home\\About_en.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "g:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\Views\\Home\\Index_en.cshtml",
+      "TargetPath": "Views\\Home\\Index_en.cshtml",
       "FileKind": "mvc"
     },
     {

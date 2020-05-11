@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="~/css/custom.css" />
     <script src="~/js/webanalyse.js" asp-append-version="true"></script>
 </head>
-<body>  
+<body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light no-bg box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Rainbow</a>
+                <a class="navbar-brand text-white" href='@ViewData["IndexUrl"]'>Rainbow</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <div class="animated-icon"><span></span><span></span><span></span></div>
@@ -31,14 +31,14 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Doc">关于</a>
+                            <a class="nav-link text-white" href='@ViewData["AboutUrl"]'>@ViewData["AboutTitle"]</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-        <div class="BG-img" style="background: url(' @ViewData["BGImg"] ') no-repeat center center; background-size: cover;">
+        <div class="BG-img" style="background: url('@ViewData["BGImg"]') no-repeat center center; background-size: cover;">
         </div>
     <div class="container">
         <partial name="_CookieConsentPartial" />
@@ -49,7 +49,9 @@
 
     <footer class="border-top footer text-muted @ViewData["FooterClass"]">
         <div class="container text-white">
-            &copy; 2020 - EatriceTeam - <a class='text-white'  href="https://eatrice.top">EatRice</a> - <a class='text-white'  href="https://ruru.eatrice.top">Courir</a>
+            &copy; 2020 - EatriceTeam - <a class='text-white'  href="https://eatrice.top">EatRice
+            </a> - <a class='text-white' href="https://ruru.eatrice.top">Courir
+            </a> - <a class='text-white' href='@ViewData["LangLink"]'>@ViewData["LangDes"]</a>
         </div>
     </footer>
 

@@ -1,0 +1,68 @@
+@{
+ViewData["Title"] = "Rainbow - 格式化字符串";
+ViewData["FooterClass"] = "position";
+ViewData["AboutTitle"] = "关于";
+ViewData["LangLink"] = "/Format/";
+}
+
+<div class="text-center v-top">
+    <div class="h2">
+        <p class="h3 text-white" id="subtitle">
+        </p>
+    </div>
+</div>
+<div class="py-5" id="board">
+    <div class="post-content mx-auto" id="post">
+    <p>content:<input type="text" class="form-control" id="content" /></p>
+    <p>author:<input type="text" class="form-control" id="author" /></p>
+    <p>source:<input type="text" class="form-control" id="source" /></p>
+    <p><button class="btn btn-primary" id="add">add</button></p>
+
+    <textarea class="form-control" id="preview" rows="5" readonly></textarea>
+
+    <div class="panel panel-default">
+        <code>
+        <div class="panel-body" id="result"></div>
+        </code>
+    </div>
+
+    <script>
+        var content = document.getElementById("content");
+        var author = document.getElementById("author");
+        var source = document.getElementById("source");
+        var add = document.getElementById("add");
+        var preview = document.getElementById("preview");
+        var result = document.getElementById("result");
+
+        function updatePreview() {
+            var s = "";
+            s += "- {\r\n";
+            s += "  content: \"" + content.value + "\",\r\n";
+            s += "  author: \"" + author.value + "\",\r\n";
+            s += "  source: \"" + source.value + "\"\r\n";
+            s += "}";
+            preview.value = s;
+        }
+
+        content.addEventListener("change", e => {
+            updatePreview();
+        });
+        author.addEventListener("change", e => {
+            updatePreview();
+        });
+        source.addEventListener("change", e => {
+            updatePreview();
+        });
+
+        add.addEventListener("click", e => {
+            var s = "";
+            s += "- {<br>";
+            s += "  content: \"" + content.value.trim() + "\",<br>";
+            s += "  author: \"" + author.value.trim() + "\",<br>";
+            s += "  source: \"" + source.value.trim() + "\"<br>";
+            s += "}<br>";
+            result.innerHTML = s + result.innerHTML;
+        });
+    </script>
+    </div>
+</div>

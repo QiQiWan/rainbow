@@ -36,6 +36,9 @@ namespace rainbow
                     case "/movies/":
                         context = Common.manager.GetModel(SModelType.Movies).ToJsonString();
                         break;
+                    case "/GetAll/":
+                        context = Common.manager.AllModelString;
+                        break;
                     default:
                         context = Common.manager.GetModel(SModelType.Reading).ToJsonString();
                         break;

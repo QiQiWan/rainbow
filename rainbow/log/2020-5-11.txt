@@ -1,0 +1,550 @@
+
+2020/5/11 22:48:30 [info] 句子文件列表更新完成!
+2020/5/11 22:48:30 [info] 服务器初始化完成!
+2020/5/11 22:48:30 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/11 22:48:45 [info] {
+"Content": "And park it next to the falls.",
+"Author": "Pete Docter",
+"Source": "Up",
+"ID": "10006"
+}
+2020/5/11 22:48:45 [info] {
+"Content": "Trust in your heart and your sun shines forever and ever",
+"Author": "Sonna Rele",
+"Source": "Strong",
+"ID": "30048"
+}
+2020/5/11 22:48:51 [info] {[{
+"Content": "They say even the proundest spirit can be broken with love.",
+"Author": "Henry Selick",
+"Source": "Coraline",
+"ID": "10000"
+},
+{
+"Content": "I am Dawson,Rose Dawson.",
+"Author": "James Cameron",
+"Source": "Titanic",
+"ID": "10001"
+},
+{
+"Content": "you have a dream,you got to protect it.",
+"Author": "Gabriele Muccino",
+"Source": "The Pursuit of Happyness",
+"ID": "10002"
+},
+{
+"Content": "Life was like a box of chocolates.",
+"Author": "Robert Zemeckis",
+"Source": "Forrest Gump",
+"ID": "10003"
+},
+{
+"Content": "get busy living or get busy dying.",
+"Author": "Frank Darabont",
+"Source": "The Shawshank Redemption",
+"ID": "10004"
+},
+{
+"Content": "The real death is that no one in the world remembers you.",
+"Author": "Lee UnKrich",
+"Source": "CoCo",
+"ID": "10005"
+},
+{
+"Content": "And park it next to the falls.",
+"Author": "Pete Docter",
+"Source": "Up",
+"ID": "10006"
+},
+{
+"Content": "When I was young,I wanted to be anybody but myself.",
+"Author": "Adam Elliot",
+"Source": "Mary and Max",
+"ID": "10007"
+},
+{
+"Content": "Come on ready to be in love,a whole life .",
+"Author": "Andrew Stanton",
+"Source": "WALL.E",
+"ID": "10008"
+},
+{
+"Content": "Because I am your mom,It counts the most because I know you the most.",
+"Author": "Stephen Chbosky",
+"Source": "Wonder",
+"ID": "10009"
+},
+{
+"Content": "Mankind was born on Earth,It was never meant to die here.",
+"Author": "Christopher Nolan",
+"Source": "Interstellar",
+"ID": "10010"
+},
+{
+"Content": "Being brave isn't about never being afraid,it's about what you do when you are",
+"Author": "Alex Winckler",
+"Source": "My Mad Fat Diary",
+"ID": "10011"
+},
+{
+"Content": "Press closer,little Nightingale,cried the Tree.",
+"Author": "Oscar Wilde",
+"Source": "Nightingale and rose",
+"ID": "20000"
+},
+{
+"Content": "I doubt a man who was so overwhelmed by others perspectives.",
+"Author": "Sheryl Sandberg",
+"Source": "Lean In",
+"ID": "20001"
+},
+{
+"Content": "I think,therefore I am.",
+"Author": "Rene Descartes",
+"Source": "Discourse on method",
+"ID": "20002"
+},
+{
+"Content": "A single man in possession of good fortune must be in want of a wife.",
+"Author": "Jane Austen",
+"Source": "Pride and prejudice",
+"ID": "20003"
+},
+{
+"Content": "Had I not seen the Sun,I could have borne the shade.",
+"Author": "Emily Dickinson",
+"Source": "Had I not seen the Sun",
+"ID": "20004"
+},
+{
+"Content": "And I say hey,what is going on?",
+"Author": "4 Non Blondes",
+"Source": "What is up",
+"ID": "30000"
+},
+{
+"Content": "Don not carry the world upon on your shoulders",
+"Author": "The Beatles",
+"Source": "Hey Jude",
+"ID": "30001"
+},
+{
+"Content": "I wonder how,I wonder Why,I wonder where they are",
+"Author": "Westlife",
+"Source": "MY Love",
+"ID": "30002"
+},
+{
+"Content": "Must I pretend that I am someone else for all time?",
+"Author": "Christina Aguilera",
+"Source": "Reflection",
+"ID": "30003"
+},
+{
+"Content": "I am so sick of runing as fast as I can,wondering If I would be quicker If I was a man",
+"Author": "Tayor Swift",
+"Source": "The Man",
+"ID": "30004"
+},
+{
+"Content": "I just wanna be the best of me",
+"Author": "Justin Bieber",
+"Source": "Changes",
+"ID": "30005"
+},
+{
+"Content": "Soon you'll get better",
+"Author": "Soon you'll get better",
+"Source": "Tayor Swift",
+"ID": "30006"
+},
+{
+"Content": "Conceal,don't feel",
+"Author": "Idina Menzel",
+"Source": "Let it go",
+"ID": "30007"
+},
+{
+"Content": "Do you wanna build a snowman",
+"Author": "Disney",
+"Source": "Frozen",
+"ID": "30008"
+},
+{
+"Content": "Remember me,Don't let it make you cry",
+"Author": "Disney",
+"Source": "CoCo",
+"ID": "30009"
+},
+{
+"Content": "And so it is,just like you said it would be",
+"Author": "Damien Rice",
+"Source": "The Blower's Daughter",
+"ID": "30010"
+},
+{
+"Content": "V is very,very extraordinary",
+"Author": "Nat King Cole",
+"Source": "L O V E",
+"ID": "30011"
+},
+{
+"Content": "IF I could save time in a bottle,the first that I'd like to do",
+"Author": "Yungbuld",
+"Source": "Time In A Bottle",
+"ID": "30012"
+},
+{
+"Content": "Blue hydrangea,cold cash,divine",
+"Author": "Lana Del Rey",
+"Source": "Old Money",
+"ID": "30013"
+},
+{
+"Content": "Don't take yourself seriously",
+"Author": "Noah Kahan",
+"Source": "False Confidence",
+"ID": "30014"
+},
+{
+"Content": "The future's not ours to see",
+"Author": "Doris Day",
+"Source": "Que Sera Sera",
+"ID": "30015"
+},
+{
+"Content": "Don't tell me you are sorry cause you are not",
+"Author": "Rihanna",
+"Source": "Take A Bow",
+"ID": "30016"
+},
+{
+"Content": "Do I still got time to grow?",
+"Author": "Jiwoo",
+"Source": "Streetlights",
+"ID": "30017"
+},
+{
+"Content": "Where did we go wrong?",
+"Author": "LANY",
+"Source": "<13>",
+"ID": "30018"
+},
+{
+"Content": "We go driving in your black car",
+"Author": "Miriam Bryant",
+"Source": "Black Car",
+"ID": "30019"
+},
+{
+"Content": "You watch me bleed untill I Can't breath,shaking",
+"Author": "Shawn Mendes",
+"Source": "Stitches",
+"ID": "30020"
+},
+{
+"Content": "When you think Tim McGraw,I hope you think my favorite song",
+"Author": "Tayor Swift",
+"Source": "Tim McGraw",
+"ID": "30021"
+},
+{
+"Content": "I learned to play on the safe side so I don't get hurt",
+"Author": "Kelly Clarkson",
+"Source": "Because Of You",
+"ID": "30022"
+},
+{
+"Content": "If I love you less,I'd be alive",
+"Author": "Unloved",
+"Source": "IF",
+"ID": "30023"
+},
+{
+"Content": "Listen to your heart when he's calling for you",
+"Author": "Roxette",
+"Source": "Listen To Your Heart",
+"ID": "30024"
+},
+{
+"Content": "Let me die in the ocean,you could bury me at sea",
+"Author": "Anthomy D'Amato",
+"Source": "Good And Ready",
+"ID": "30025"
+},
+{
+"Content": "What's it like in New York?",
+"Author": "Plain White T's",
+"Source": "Hey There Delilah",
+"ID": "30026"
+},
+{
+"Content": "She was a sight to see,someone to warm you up",
+"Author": "Lanie",
+"Source": "She Was A Pretty One",
+"ID": "30027"
+},
+{
+"Content": "Let's Marvin Gaye and get it on",
+"Author": "Charlie Puth",
+"Source": "Marvin Gaye",
+"ID": "30028"
+},
+{
+"Content": "I promise that one day I'll be around",
+"Author": "Shawn Mendes",
+"Source": "Never Be Alone",
+"ID": "30029"
+},
+{
+"Content": "I fuking hate you,but I love you just the same",
+"Author": "Charlotte Lawrence",
+"Source": "Just The Same",
+"ID": "30030"
+},
+{
+"Content": "Aren't you tired trying fill that void?",
+"Author": "Lady Gaga",
+"Source": "Shallow",
+"ID": "30031"
+},
+{
+"Content": "Are you happy in this modern world?",
+"Author": "Lady Gaga",
+"Source": "Shallow",
+"ID": "30032"
+},
+{
+"Content": "Back in the 90's,I was in a very famous TV show",
+"Author": "Grouplove",
+"Source": "Back In The 90's",
+"ID": "30033"
+},
+{
+"Content": "It's a quarter after one",
+"Author": "Lady Antebellum",
+"Source": "Need You Now",
+"ID": "30034"
+},
+{
+"Content": "Let me go,I don't wanna be your hero",
+"Author": "Family Of The Year",
+"Source": "Hero",
+"ID": "30035"
+},
+{
+"Content": "My mon don't like you but she likes everyone",
+"Author": "Justin Bieber",
+"Source": "Love Yourself",
+"ID": "30036"
+},
+{
+"Content": "All of these lines across my face",
+"Author": "Brandi Carline",
+"Source": "The Story",
+"ID": "30037"
+},
+{
+"Content": "Welcome to the fianl show",
+"Author": "Harry Styles",
+"Source": "Sign Of The Times",
+"ID": "30038"
+},
+{
+"Content": "Stay in my arms if you dare",
+"Author": "Whitney Houston",
+"Source": "I Have Nothing",
+"ID": "30039"
+},
+{
+"Content": "We clawed,we chained,our hearts in vain",
+"Author": "Miley Cyrus",
+"Source": "Wrecking Ball",
+"ID": "30040"
+},
+{
+"Content": "How you stomp your feet up off the ground",
+"Author": "Tep No",
+"Source": "Me And My Guitar",
+"ID": "30041"
+},
+{
+"Content": "And let me play among the stars",
+"Author": "Joshua Radin",
+"Source": "Fly Me To The Moon",
+"ID": "30042"
+},
+{
+"Content": "It is gone be a long night",
+"Author": "Bishop Briggs",
+"Source": "Dark Side",
+"ID": "30043"
+},
+{
+"Content": "Loving strangers",
+"Author": "Jocelyn Pook",
+"Source": "Loving strangers",
+"ID": "30044"
+},
+{
+"Content": "To earn my stripes I have to pay",
+"Author": "Adele",
+"Source": "Millions",
+"ID": "30045"
+},
+{
+"Content": "Oh,dream maker,you heart breaker",
+"Author": "Audrey Hepburn",
+"Source": "Moon River",
+"ID": "30046"
+},
+{
+"Content": "Two drifters,off to see the world",
+"Author": "Audrey Hepburn",
+"Source": "Moon River",
+"ID": "30047"
+},
+{
+"Content": "Trust in your heart and your sun shines forever and ever",
+"Author": "Sonna Rele",
+"Source": "Strong",
+"ID": "30048"
+},
+{
+"Content": "I want to wish you well",
+"Author": "Katie Herzig",
+"Source": "Wish You Well",
+"ID": "30049"
+},
+{
+"Content": "Fighting for you",
+"Author": "Dua Lipa",
+"Source": "Homesick",
+"ID": "30050"
+},
+{
+"Content": "Are you,are you,Coming to the tree",
+"Author": "Jennifer Lawrence",
+"Source": "Hungry",
+"ID": "30051"
+},
+{
+"Content": "I can still see the wind in her golden hair",
+"Author": "Restless Heart",
+"Source": "The Bluest Eyes In Texas",
+"ID": "30052"
+},
+{
+"Content": "I couldn't lie,couldn't lie,couldn't lie",
+"Author": "One Republic",
+"Source": "Counting Stars",
+"ID": "30053"
+},
+{
+"Content": "you're gonna hear me roar",
+"Author": "Katy Perry",
+"Source": "Roar",
+"ID": "30054"
+},
+{
+"Content": "For trying to find my way back to what it's like to be young",
+"Author": "Hello Saferide",
+"Source": "Long Lost Penpal",
+"ID": "30055"
+},
+{
+"Content": "I wanna rock-n-roll,I wanna give my soul",
+"Author": "Matthew",
+"Source": "Save you",
+"ID": "30056"
+},
+{
+"Content": "No doubt in my mind where you belong",
+"Author": "Adele",
+"Source": "Make you feel my love",
+"ID": "30057"
+},
+{
+"Content": "Wherever you go,where I'll be",
+"Author": "A rocket to the Moon",
+"Source": "Wherever You Go",
+"ID": "30058"
+},
+{
+"Content": "I was horrible and almost let him in",
+"Author": "Big Thief",
+"Source": "Paul",
+"ID": "30059"
+},
+{
+"Content": "I've been awake for a while now",
+"Author": "Colbie Caillat",
+"Source": "Bubbly",
+"ID": "30060"
+},
+{
+"Content": "How it feels to love a girl",
+"Author": "Beyonce",
+"Source": "If I Were A Boy",
+"ID": "30061"
+},
+{
+"Content": "He said peter pan that's what they call me",
+"Author": "Ruth.B",
+"Source": "Lost Boy",
+"ID": "30062"
+},
+{
+"Content": "Dreams are my reality",
+"Author": "Richard Sanderson",
+"Source": "Reality",
+"ID": "30063"
+}]}
+2020/5/11 22:48:52 [info] {
+"Content": "Where did we go wrong?",
+"Author": "LANY",
+"Source": "<13>",
+"ID": "30018"
+}
+2020/5/11 22:52:44 [info] 句子文件列表更新完成!
+2020/5/11 22:52:44 [info] 服务器初始化完成!
+2020/5/11 22:52:44 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/11 22:52:48 [info] /GetAll
+2020/5/11 22:52:48 [info] /favicon.ico
+2020/5/11 22:52:48 [info] /GetAll
+2020/5/11 22:52:49 [info] /favicon.ico
+2020/5/11 22:52:49 [info] /GetAll
+2020/5/11 22:52:49 [info] /favicon.ico
+2020/5/11 23:01:57 [info] 句子文件列表更新完成!
+2020/5/11 23:01:57 [info] 服务器初始化完成!
+2020/5/11 23:01:57 [info] The server is running at: http:/127.0.0.1:8888/
+2020/5/11 23:02:01 [info] /GetAll
+2020/5/11 23:02:01 [info] /favicon.ico
+2020/5/11 23:02:03 [info] /GetAll
+2020/5/11 23:02:03 [info] /favicon.ico
+2020/5/11 23:02:04 [info] /GetAll
+2020/5/11 23:02:04 [info] /favicon.ico
+2020/5/11 23:02:05 [info] /GetAll
+2020/5/11 23:02:05 [info] /favicon.ico
+2020/5/11 23:02:05 [info] /GetAll
+2020/5/11 23:02:05 [info] /favicon.ico
+2020/5/11 23:02:06 [info] /GetAll
+2020/5/11 23:02:06 [info] /favicon.ico
+2020/5/11 23:02:06 [info] /GetAll
+2020/5/11 23:02:06 [info] /favicon.ico
+2020/5/11 23:02:06 [info] /GetAll
+2020/5/11 23:02:06 [info] /favicon.ico
+2020/5/11 23:02:06 [info] /GetAll
+2020/5/11 23:02:07 [info] /favicon.ico
+2020/5/11 23:02:09 [info] /GetAll
+2020/5/11 23:02:09 [info] /favicon.ico
+2020/5/11 23:02:09 [info] /GetAll
+2020/5/11 23:02:09 [info] /favicon.ico
+2020/5/11 23:02:10 [info] /GetAll
+2020/5/11 23:02:10 [info] /favicon.ico
+2020/5/11 23:02:11 [info] /GetAll
+2020/5/11 23:02:11 [info] /favicon.ico
+2020/5/11 23:02:11 [info] /GetAll
+2020/5/11 23:02:11 [info] /favicon.ico
+2020/5/11 23:02:12 [info] /GetAll
+2020/5/11 23:02:12 [info] /favicon.ico

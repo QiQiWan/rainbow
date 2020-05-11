@@ -16,21 +16,31 @@ namespace rainbow
         static public string CreateFullName(FileInfo file) => "resource/" + file.Name;
         static public readonly string[] FileLists = { "movies.yml", "reading.yml", "songs.yml" };
 
+        /// <summary>
+        /// 初始化句子管理器
+        /// </summary>
+        /// <returns></returns>
         static public SModelManager InitManager()
         {
-            SModelManager manager = new SModelManager();
             List<SModel> list = GetModels();
 
-            manager.AddSModels(list);
-
+            SModelManager manager = new SModelManager(list);
+            
             return manager;
         }
+
+        /// <summary>
+        /// 从文件中读取句子模型字符串,并获取该文件中包含的模型列表
+        /// 获取的不同文件中的模型ID以不同的起点数量开始,电影10000,阅读20000,歌曲30000
+        /// </summary>
+        /// <returns></returns>
         static private List<SModel> GetModels()
         {
             List<SModel> list = new List<SModel>();
-            int i = 1000;
+            int level = 1;
             foreach (var path in FileLists)
             {
+                int i = level * 10000;
                 string fileName = "resource/" + path;
                 string origin = FileHelper.ReadFile(fileName);
 
@@ -54,9 +64,18 @@ namespace rainbow
                     list.Add(GetModel(item, i, type));
                     i++;
                 }
+                level++;
             }
             return list;
         }
+        
+        /// <summary>
+        /// 从句子模型的 yml 字符串中提取句子模型对象
+        /// </summary>
+        /// <param name="origin"></param>
+        /// <param name="count"></param>
+        /// <param name="type"></param>
+        /// <returns></returns>
         static private SModel GetModel(string origin, int count, SModelType type)
         {
             List<string> Attributes = new List<string>();

@@ -40,6 +40,8 @@ namespace rainbow
                 server.Stop();
             }
         }
-        static void RefreshCatch(object source, System.Timers.ElapsedEventArgs e) => Common.InitManager();
+        static void RefreshCatch(object source, System.Timers.ElapsedEventArgs e) {
+            Common.InitManager();
+        }
     }
 }
