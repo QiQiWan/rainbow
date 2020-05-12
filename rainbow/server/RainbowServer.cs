@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 namespace rainbow
 {
     /// <summary>
-    /// 定义彩虹服务器,包括监听和消息处理
+    /// 定义彩虹API服务器,包括监听和消息处理
     /// </summary>
     public class RainbowServer
     {
@@ -63,7 +63,9 @@ namespace rainbow
 
             Loger.Log(result.Request.Url.AbsolutePath);
         }
-
+        /// <summary>
+        /// 停止服务器
+        /// </summary>
         public void Stop()
         {
             server.Stop();

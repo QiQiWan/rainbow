@@ -1,0 +1,7 @@
+rainbow/bin/
+rainbow/obj/
+rainbow-site/obj/
+rainbow-site/bin/
+.vscode/
+rainbow/.vscode
+rainbow-site/.vscode

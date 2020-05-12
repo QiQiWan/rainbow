@@ -5,6 +5,9 @@ using System.Text;
 
 namespace rainbow
 {
+    /// <summary>
+    /// 模拟IIS的CGI请求转发
+    /// </summary>
     public class CGI
     {
         public static string GetResponse(HttpListenerRequest request)

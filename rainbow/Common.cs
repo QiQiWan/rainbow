@@ -6,6 +6,7 @@ namespace rainbow
     /// </summary>
     class Common
     {
+        //进程锁
         public static object Lock = new object();
         public static SModelManager manager;
         public static RainbowServer server;

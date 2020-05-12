@@ -302,19 +302,24 @@
   content: "I've been awake for a while now",
   author: "Colbie Caillat",
   source: "Bubbly"
-  }
-  - {
+}
+- {
   content: "How it feels to love a girl",
   author: "Beyonce",
   source: "If I Were A Boy"
-  }
-  - {
+}
+- {
   content: "He said peter pan that's what they call me",
   author: "Ruth.B",
   source: "Lost Boy"
-  }
-  - {
+}
+- {
   content: "Dreams are my reality",
   author: "Richard Sanderson",
   source: "Reality"
-  }
+}
+- {
+  content: "I 'm wasting my time, I got nothing to do.",
+  author: "Fool's Garden",
+  source: "Lemon Tree"
+}

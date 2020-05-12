@@ -87,13 +87,22 @@ namespace rainbow
                 }
             }
         }
+        /// <summary>
+        /// 判断文件是否存在
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
         public static bool FileExists(string filePath) => File.Exists(filePath);
+        /// <summary>
+        /// 创建指定文件
+        /// </summary>
+        /// <param name="filePath"></param>
         public static void CreatFile(string filePath)
         {
             using (fileStream = new FileStream(filePath, FileMode.Create))
             {
                 streamWriter = new StreamWriter(fileStream);
-                streamWriter.WriteLine("");
+                streamWriter.Write("");
                 streamWriter.Close();
                 fileStream.Close();
             }
