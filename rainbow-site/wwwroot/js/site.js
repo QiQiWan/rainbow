@@ -33,7 +33,7 @@ function TimeTick(){
     GetRequest("/GetJson");
     //设置定时切换
     setTimeout(() => {
-        GetRequest("/GetJson");
+        TimeTick();
     }, 60000);
 }
 TimeTick();
