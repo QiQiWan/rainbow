@@ -78,6 +78,20 @@ ViewData["LangLink"] = "/About/en/";
                     rel="noopener">https://rainbow.eatrice.top/</a><br>欢迎大家访问和提供意见😊😊😊。</p>
             <p><img src="1.png" srcset="https://eatrice.top/post/Rainbow/1.png" alt=""></p>
             <br />
+            <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在需要添加 <code>rainbow</code> 的地方添加一个 div：</p>
+<div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"raibow"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">''</span>&gt;</span>🌈 获取中...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
+<p>在申明div之后，搭配数据请求脚本</p>
+<div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
+<span class="actionscript">fetch(<span class="hljs-string">'http://api.eatrice.top'</span>)</span>
+<span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())</span>
+<span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> &#123;</span>
+<span class="javascript">    <span class="hljs-keyword">var</span> rainbow = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'rainbow'</span>);</span>
+    rainbow.innerHTML = data.Content;
+<span class="actionscript">    rainbow.href = <span class="hljs-string">"https://rainbow.eatrice.top/?ID="</span> + data.ID;</span>
+  &#125;)
+<span class="javascript">  .catch(<span class="hljs-built_in">console</span>.error)</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre></div>
+<p>就能在网站上看到你的 rainbow 啦！</p>
             <h2 id="开源"><a href="#开源" class="headerlink" title="开源"></a>开源</h2><p>项目已在<code>github</code>上开源</p>
 <ul>
 <li>项目地址：<a href="https://github.com/QiQiWan/rainbow/" target="_blank" rel="noopener">https://github.com/QiQiWan/rainbow/</a></li>
