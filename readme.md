@@ -49,6 +49,8 @@ Rainbow 创建的初衷是替代我们的个人网站目前正在使用的 一�
 `https://api.eatrice.top/movies/`
 `https://api.eatrice.top/songs/`
 
+获取语句库中所有语句`Json`格式的接口：`https://api.eatrice.top/GetAll/`
+
 需要根据语句ID请求语句的接口：`https://api.eatrice.top/?ID=1001`
 ID编号从1001开始增加，若该ID不存在则随机返回语句，同`https://api.eatrice.top/`
 
