@@ -52,6 +52,10 @@ namespace rainbow
         {
 
             HttpListenerResponse response = result.Response;
+            //允许跨域请求
+            response.Headers.Add("Access-Control-Allow-Origin", "*");
+            response.Headers.Add("Access-Control-Allow-Methods", "GET, POST");
+
 
             string responseString = CGI.GetResponse(result.Request);
 
