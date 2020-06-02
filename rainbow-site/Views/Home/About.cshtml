@@ -68,7 +68,7 @@ ViewData["LangLink"] = "/About/en/";
     <span class="hljs-attr">"Content"</span>: <span class="hljs-string">"Because I am your mom,It counts the most because I know you the most."</span>,
     <span class="hljs-attr">"Author"</span>: <span class="hljs-string">"Stephen Chbosky"</span>,
     <span class="hljs-attr">"Source"</span>: <span class="hljs-string">"Wonder"</span>,
-    <span class="hljs-attr">"ID"</span>: <span class="hljs-string">"1009"</span>
+    <span class="hljs-attr">"ID"</span>: <span class="hljs-string">"10009"</span>
 &#125;</code></pre>
             </div>
             <br>其中，<code>Content</code>为句子内容<br><code>Author</code>为句子作者<br><code>Source</code>为句子来源<br><code>ID</code>为句子ID
@@ -78,11 +78,11 @@ ViewData["LangLink"] = "/About/en/";
                     rel="noopener">https://rainbow.eatrice.top/</a><br>欢迎大家访问和提供意见😊😊😊。</p>
             <p><img src="1.png" srcset="https://eatrice.top/post/Rainbow/1.png" alt=""></p>
             <br />
-            <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在需要添加 <code>rainbow</code> 的地方添加一个 div：</p>
-<div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"raibow"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">''</span>&gt;</span>🌈 获取中...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
-<p>在申明div之后，搭配数据请求脚本</p>
+            <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在需要添加 <code>rainbow</code> 的地方添加一个占位符：</p>
+<div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"rainbow"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">''</span>&gt;</span>🌈 获取中...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
+<p>在申明占位符之后，搭配数据请求脚本</p>
 <div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
-<span class="actionscript">fetch(<span class="hljs-string">'http://api.eatrice.top'</span>)</span>
+<span class="actionscript">fetch(<span class="hljs-string">'https://api.eatrice.top'</span>)</span>
 <span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())</span>
 <span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> &#123;</span>
 <span class="javascript">    <span class="hljs-keyword">var</span> rainbow = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'rainbow'</span>);</span>
