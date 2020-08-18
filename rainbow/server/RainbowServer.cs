@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Security.Cryptography;
 using System.Text;
@@ -21,7 +22,7 @@ namespace rainbow
         }
         public void Start()
         {
-            if(domainList.Count < 1)
+            if (domainList.Count < 1)
                 domainList.Add(FileHelper.ReadFile("server/host"));
             foreach (var item in domainList)
                 server.Prefixes.Add(item);
@@ -56,17 +57,36 @@ namespace rainbow
             response.Headers.Add("Access-Control-Allow-Origin", "*");
             response.Headers.Add("Access-Control-Allow-Methods", "GET, POST");
 
-
             string responseString = CGI.GetResponse(result.Request);
 
-            byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+            byte[] buffer;
+            //搜索引擎抓取
+            if (responseString == "robot")
+            {
+                string robotFile = "robot.txt";
+                FileInfo file = new FileInfo(robotFile);//创建一个文件对象
+                response.ContentEncoding = Encoding.Default;//输出内容的编码为默认编码
+                response.AddHeader("Content-Disposition", "attachment;filename=" + file.Name);//添加头信息。为“文件下载/另存为”指定默认文件名称
+
+                FileStream fs = new FileStream(robotFile, FileMode.Open, FileAccess.Read, FileShare.Read);
+                buffer = new byte[fs.Length];
+                fs.Read(buffer, 0, buffer.Length);
+                fs.Close();
+            }
+            else//正常字符串相应
+            {
+                buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+            }
+
             response.ContentLength64 = buffer.Length;
             System.IO.Stream output = response.OutputStream;
             output.Write(buffer, 0, buffer.Length);
             output.Close();
+            response.Close();
 
             Loger.Log(result.Request.Url.AbsolutePath);
         }
+
         /// <summary>
         /// 停止服务器
         /// </summary>

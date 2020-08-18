@@ -14,6 +14,7 @@ namespace rainbow
         {
 
             Loger.Log("客户端: " + request.RemoteEndPoint.Address + "  已连接", LogerType.Info);
+            Loger.Log("来源域名为：" + request.Headers["Origin"]);
 
             Uri uri = request.Url;
             string urlPath = uri.AbsolutePath;
@@ -41,6 +42,9 @@ namespace rainbow
                         break;
                     case "/GetAll/":
                         context = Common.manager.AllModelString;
+                        break;
+                    case "/robot.txt":
+                        context  = "robot";
                         break;
                     default:
                         context = Common.manager.GetModel(SModelType.Reading).ToJsonString();
