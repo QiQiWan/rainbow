@@ -12,12 +12,12 @@ namespace rainbow_site.Controllers
         public QixiController()
         {
             ViewData["Layout"] = "_QixiLayout";
-
         }
 
         public IActionResult Index()
         {
             // 指定母版
+            ViewData["Layout"] = "_QixiLayout";
             return View();
         }
         public IActionResult Type1()
