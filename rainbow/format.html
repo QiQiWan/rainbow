@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>格式转换器</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <br /><br /><br />
+    <p>content:<input type="text" class="form-control" id="content" /></p>
+    <p>author:<input type="text" class="form-control" id="author" /></p>
+    <p>source:<input type="text" class="form-control" id="source" /></p>
+    <p><button class="btn btn-primary" id="add">add</button></p>
+
+    <textarea class="form-control" id="preview" rows="5" readonly></textarea>
+
+    <div class="panel panel-default">
+        <code>
+        <div class="panel-body" id="result"></div>
+        </code>
+    </div>
+
+    <script>
+        var content = document.getElementById("content");
+        var author = document.getElementById("author");
+        var source = document.getElementById("source");
+        var add = document.getElementById("add");
+        var preview = document.getElementById("preview");
+        var result = document.getElementById("result");
+
+        function updatePreview() {
+            var s = "";
+            s += "- {\r\n";
+            s += "  content: \"" + content.value + "\",\r\n";
+            s += "  author: \"" + (author.value == "" ? "unknown" : author.value) + "\",\r\n";
+            s += "  source: \"" + (source.value == "" ? "unknown" : source.value) + "\"\r\n";
+            s += "}";
+            preview.value = s;
+        }
+
+        content.addEventListener("change", e => {
+            updatePreview();
+        });
+        author.addEventListener("change", e => {
+            updatePreview();
+        });
+        source.addEventListener("change", e => {
+            updatePreview();
+        });
+
+        add.addEventListener("click", e => {
+            var s = "";
+            s += "- {<br>";
+            s += "  content: \"" + content.value.trim() + "\",<br>";
+            s += "  author: \"" + (author.value == "" ? "unknown" : author.value).trim() + "\",<br>";
+            s += "  source: \"" + (source.value == "" ? "unknown" : source.value).trim() + "\"<br>";
+            s += "}<br>";
+            result.innerHTML = s + result.innerHTML;
+        });
+    </script>
+</body>
+
+</html>

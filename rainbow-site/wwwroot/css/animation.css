@@ -1,0 +1,561 @@
+/* Qixi/Type1 样式 */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,del,dfn,em,img,ins,kbd,q,samp,small,strong,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,table,tbody,tfoot,thead,tr,th,td,article,aside,footer,header,nav,section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0; /*轮廓*/
+	font-size: 100%;
+	background: transparent  /*背景透明*/
+}
+ul,li{
+    list-style-type: none;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;/*子元素将保留其 3D位置*/
+	backface-visibility: hidden; /*当元素不面向屏幕时隐藏*/
+	perspective: 1000;  /*相当于Z轴长度*/
+}
+#content{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow:hidden;
+	position: absolute;
+}
+	.content_wrap{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	}
+		.content_wrap > li{ /*>表示只选择一代*/
+			width: 100%;
+			height: 100%;
+			float: left;
+			background-size: 100% 100%;
+			overflow: hidden;
+			position: relative;
+		}
+	.charector{
+		width: 151px;
+		height: 291px;
+		background: url(/img/type1/boy.png) -0px -291px no-repeat;
+		position: absolute;
+		left: -6%;
+		top: 55%;
+		transform: translateX(0px);
+		backface-visibility: hidden;
+		perspective: 1000;		
+	}
+	.slowWalk{
+		animation: person-slow 950ms infinite;
+		animation-timing-function:steps(1,start);
+	}
+	@keyframes person-slow{
+		0%{
+			background-position: -0px -291px;
+		}
+	    25% {
+	        background-position: -602px -0px;
+	    }
+	    50% {
+	        background-position: -302px -291px;
+	    }
+	    75% {
+	        background-position: -151px -291px;
+	    }
+	    100% {
+	        background-position: -0px -291px;
+	    }
+	
+	}
+	.pauseWalk{
+		animation-play-state: paused;
+	}
+	.slowFlowerWalk{
+		animation: person-flower-slow 950ms infinite step-start;
+	}
+		@keyframes person-flower-slow{
+	       0% {
+	           background-position: -453px -0px;
+	       }
+	       25% {
+	           background-position: -904px -0px;
+	       }
+	       50% {
+	           background-position: -451px -0px;
+	       }
+	       75% {
+	           background-position: -753px -0px;
+	       }
+	       100% {
+	           background-position: -300px -0px;
+	       }
+		}
+   .boyOriginal {
+     background-position: -150px -0px;
+    }
+	.boy-rotate {
+	       animation: boy-rotate 850ms 1 step-start forwards;
+	   }
+	   
+	   @keyframes boy-rotate {
+	       0% {
+	           background-position: -603px -291px;
+	       }
+	       16.7% {
+	           background-position: -150px -0px;
+	       }
+	       33.4% {
+	           background-position: -453px -291px;
+	       }
+	       50.1% {
+	           background-position: -0px -0px;
+	       }
+	       66.8% {
+	           background-position: -903px -291px;
+	       }
+	       83.5% {
+	           background-position: -753px -291px;
+	       }
+	       100% {
+	           background-position: -603px -291px;
+	       }
+	   }
+/*第一页*/
+/*背景图*/
+.a_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.a_background_top{
+    width: 100%;
+    height: 71.6%;
+    background-image:url(/img/type1/a_background_top.png);
+    background-size: 100% 100%;
+}
+
+
+.a_background_middle{
+    width: 100%;
+    height: 13.1%;
+    background-image: url(/img/type1/a_background_middle.png);
+    background-size: 100% 100%;
+}
+
+.a_background_botton{
+    width: 100%;
+    height: 15.3%;
+    background-image:url(/img/type1/a_background_botton.png);
+    background-size: 100% 100%;
+}
+	#sun {
+	    background: url(/img/type1/sun.png) no-repeat;
+	    position: absolute;
+	    z-index: 1;
+	    top: -30px;
+	    height: 201px;
+	    width: 201px;
+	    right: 40%;
+		transform: rotate(45deg) ;
+		animation: rotation 60s 1 forwards;
+	}
+	@keyframes rotation{
+		0% {
+		    transform: translateX(0) translateY(0);
+		}
+		100% {
+		    transform: translateX(-2000px) translateY(400px);
+		}
+	}   
+    .cloud{
+        z-index: 2;
+        position: absolute;
+    }
+    
+    .cloud1 {
+        width: 181px;
+        height: 101px;
+        left: -5%;
+        top: 15%;
+        background: url(/img/type1/cloud1.png);
+    }
+    
+
+    .cloud2 {
+        width: 301px;
+        height: 140px;
+        right: -5%;
+        background: url(/img/type1/cloud2.png);
+    }
+    .cloud1Anim{
+        animation: smallCloud 30s infinite;
+    }
+    
+    .cloud2Anim{
+        animation: largeCloud 60s infinite;
+    }
+    @keyframes smallCloud{
+		0% {
+		    left: -5%;
+		}
+		100% {
+		    left: 100%;
+		}
+    }
+    @keyframes largeCloud{
+		0% {
+		    left: -5%;
+		}
+		100% {
+		    left: 100%;
+		}
+    }
+/*第二页*/
+/*背景图*/
+.b_background {
+   	width:100%;
+    height: 100%;
+    background-image: url(/img/type1/b_background.png);
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.b_background_preload {
+    background: url(/img/type1/b_background_preload.png) no-repeat -9999px -9999px;
+}
+
+.lamp-bright {
+   background-image: url(/img/type1/b_background_preload.png);
+}
+
+
+/*商店*/
+
+.shop {
+    width: 39.5%;
+    height: 35.5%;
+    position: absolute;
+    left: 29%;
+    top: 36.5%;
+}
+
+.door {
+    position: absolute;
+    width: 32%;
+    height: 100%;
+    top: 32%;
+    height: 68%;
+    overflow: hidden;
+    left: 58.5%;
+}
+
+.door-left,
+.door-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+.door-left {
+    left: 0%;
+    background: url(/img/type1/door-left.png);
+    background-size: 100% 100%;
+}
+
+.door-right {
+    left: 50%;
+    background: url(/img/type1/door-right.png);
+    background-size: 100% 100%;
+}
+.bird {
+    min-width: 91px;
+    min-height: 71px;
+    top: 10%;
+    position: absolute;
+    z-index: 10;
+    right: -91px;
+    background: url(/img/type1/bird.png) -182px 0px no-repeat;
+}
+.birdFly {
+	animation: bird-slow 400ms infinite step-start;
+}
+@keyframes bird-slow{
+	0% {
+	    background-position: -182px 0px;
+	}
+	50% {
+	    background-position: 0px 0px;
+	}
+	75% {
+	    background-position: -91px 0px;
+	}
+	100% {
+	    background-position: -182px 0px;
+	}
+}
+/*第三页*/
+/*背景图*/
+
+.c_background {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.c_background_top{
+    width: 100%;
+    height: 71.6%;
+    background-image: url(/img/type1/c_background_top.png);
+    background-size: 100% 100%;
+}
+
+
+.c_background_middle{
+    width: 100%;
+    height: 13.1%;
+    background-image: url(/img/type1/c_background_middle.png);
+    background-size: 100% 100%;
+}
+
+.c_background_botton{
+    width: 100%;
+    height: 15.3%;
+    background-image: url(/img/type1/c_background_botton.png);
+    background-size: 100% 100%;
+}
+
+/*小女孩*/
+
+.girl {
+    background: url(/img/type1/girl.png) -755px -0px no-repeat;
+    position: absolute;
+    right: 40%;
+    top: 37%;
+    width: 151px;
+    height: 291px;
+}
+.girl-rotate {
+    animation: girl-rotate 850ms 1 step-start;
+    animation-fill-mode: forwards; /*规定动画播放前后是否可见*/
+}
+@keyframes girl-rotate {
+    0% {
+        background-position: -604px -0px;
+    }
+    16.7% {
+        background-position: -151px -0px;
+    }
+    33.4% {
+        background-position: -906px -0px;
+    }
+    50.1% {
+        background-position: -0px -0px;
+    }
+    66.8% {
+        background-position: -302px -0px;
+    }
+    83.5% {
+        background-position: -453px -0px;
+    }
+    100% {
+        background-position: -604px -0px;
+    }
+}
+
+/*桥*/
+
+.bridge-bottom {
+    position: absolute;
+    width: 41%;
+    height: 24%;
+    left: 29.5%;
+    top: 76%;
+    overflow: hidden;
+}
+/*波浪水布局*/
+
+.water {
+    width: 100%;
+    height: 100%;
+}
+
+.water_1,
+.water_2,
+.water_3,
+.water_4 {
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    animation: shake 40s linear infinite alternate;
+}
+@keyframes shake{
+	0%,100%{
+		transform: translate3d(0,0,0);
+	}
+	10%,30%,50%,70%,90%{
+		transform: translate3d(-30px,0px,0);
+	}
+	20%,40%,60%,80%{
+		transform: translate3d(30px,0px,0);	
+	}
+}
+.water_1 {
+    width: 131px;
+    height: 15px;
+    top: 13%;
+    left: 35%;
+    background: url() -261px -0px no-repeat;
+}
+
+.water_2 {
+    width: 161px;
+    height: 9px;
+    top: 30%;
+    left: 45%;
+    background: url(/img/type1/water_1.png) -693px -0px no-repeat;
+}
+
+.water_3 {
+    width: 261px;
+    height: 29px;
+    top: 50%;
+    left: 15%;
+    background: url(/img/type1/water_1.png) -0px -0px no-repeat;
+}
+
+.water_4 {
+    width: 301px;
+    height: 12px;
+    top: 75%;
+    left: 30%;
+    background: url(/img/type1/water_1.png) -392px -0px no-repeat;
+}
+
+
+
+/*星星*/
+
+.stars {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.stars > li {
+    position: absolute;
+    width: 30px;
+    height: 31px;
+    background-image: url(/img/type1/stars.png);
+    animation: flash 5s ease-in-out infinite alternate ;
+}
+
+.stars1 {
+    top: 20%;
+    left: 30%;
+}
+
+.stars2 {
+    top: 15%;
+    left: 20%;
+}
+
+.stars3 {
+    top: 25%;
+    left: 85%;
+}
+
+.stars4 {
+    top: 30%;
+    left: 70%;
+}
+
+.stars5 {
+    top: 25%;
+    left: 20%;
+}
+
+.stars6 {
+    top: 10%;
+    left: 65%;
+}
+@keyframes flash{
+	0%,50%,100%{
+		opacity: 1;
+	}
+	25%,75%{
+		opacity: 0;
+	}
+}
+/*logo图标*/
+.logo {
+    width: 240px;
+    height: 127px;
+    background-image: url(/img/type1/logo.png);
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    margin-left: -92.5px;
+    top: 20px;
+    display: none;
+}
+.logolightSpeedIn {
+    display: block;
+    animation: lightSpeedIn 1s ease-out ;
+}
+@keyframes lightSpeedIn{
+    0% {
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+    }
+    60% {
+        transform: skewX(20deg);
+        opacity: 1;
+    }
+    80% {
+        transform: skewX(-5deg);
+        opacity: 1;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+/*雪花飘落*/
+	#snowflake {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+	.snowRoll {
+		width: 41px;
+		height: 41px;
+	    position: absolute;
+	    opacity: 0;
+	    z-index: 999;
+	    top: -41px;
+	    background-size: cover;
+	   	animation: mysnow 20s;
+	}
+	
+	@keyframes mysnow {
+	    0% {
+	        bottom: 100%;
+	    }
+	    50% {
+	        transform: rotate(1080deg);
+	    }
+	    100% {
+	        transform: rotate(0deg) translate3d(50px, 50px, 50px);
+	    }
+	}

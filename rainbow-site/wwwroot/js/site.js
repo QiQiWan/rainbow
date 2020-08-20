@@ -1,11 +1,6 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your Javascript code.
-
-function PageReplace(Id, jsonString) {
+﻿function PageReplace(Id, jsonString) {
     var container = document.getElementById(Id);
-    var SModel = JSON.parse(jsonString);
+    var SModel = typeof (jsonString) == 'string' ? JSON.parse(jsonString) : jsonString;
     container.innerHTML = "";
     container.innerHTML += SModel.Content + "<br /><br />";
     container.innerHTML += "<span class='h5 float-right'>————" + SModel.Author + "《" + SModel.Source + "》</span>";
@@ -29,11 +24,25 @@ function getQueryString(name) {
     if (r != null) return unescape(r[2]); return null;
 }
 
-function TimeTick(){
-    GetRequest("/GetJson");
-    //设置定时切换
+function TimeTick() {
+    // GetRequest("/GetJson");
+    // //设置定时切换
+    // setTimeout(() => {
+    //     TimeTick();
+    // }, 60000);
+
+    // 设置定时切换
+    GetRainbow();
     setTimeout(() => {
         TimeTick();
     }, 60000);
+}
+function GetRainbow() {
+    fetch('https://api.eatrice.top')
+        .then(response => response.json())
+        .then(data => {
+            PageReplace("subtitle", data);
+        })
+        .catch(console.error)
 }
 TimeTick();

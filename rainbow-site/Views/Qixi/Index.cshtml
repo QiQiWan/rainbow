@@ -1,0 +1,77 @@
+@{
+    ViewData["Title"] = "共度七夕";
+}
+
+<script src="/js/animation.js"></script>
+<link href="/css/animation.css" rel="stylesheet" type="text/css" />
+
+<div id="content">
+    <ul class="content_wrap">
+        <li>
+            <!--背景图-->
+            <div class="a_background">
+                <div class="a_background_top"></div>
+                <div class="a_background_middle"></div>
+                <div class="a_background_botton"></div>
+            </div>
+            <!-- 云 -->
+            <div class="cloudArea">
+                <div class="cloud cloud1 cloud1Anim"></div>
+                <div class="cloud cloud2 cloud2Anim"></div>
+            </div>
+            <!-- 太阳 -->
+            <div id="sun"></div>
+        </li>
+        <li>
+            <!-- 背景图 -->
+            <div class="b_background"></div>
+            <div class="b_background_preload"></div>
+            <!-- 商店 -->
+            <div class="shop">
+                <div class="door">
+                    <div class="door-left"></div>
+                    <div class="door-right"></div>
+                </div>
+                <!-- 灯 -->
+                <div class="lamp"></div>
+            </div>
+            <!--鸟-->
+            <div class="bird"></div>
+        </li>
+        <li>
+            <!-- 背景图 -->
+            <div class="c_background">
+                <div class="c_background_top"></div>
+                <div class="c_background_middle"></div>
+                <div class="c_background_botton"></div>
+            </div>
+            <!-- 小女孩 -->
+            <div class="girl"></div>
+            <!-- 水波 -->
+            <div class="bridge-bottom">
+                <div class="water">
+                    <div id="water1" class="water_1"></div>
+                    <div id="water2" class="water_2"></div>
+                    <div id="water3" class="water_3"></div>
+                    <div id="water4" class="water_4"></div>
+                </div>
+            </div>
+            <!-- 星星 -->
+            <ulclass="stars">
+                <li class="stars1"></li>
+                <li class="stars2"></li>
+                <li class="stars3"></li>
+                <li class="stars4"></li>
+                <li class="stars5"></li>
+                <li class="stars6"></li>
+            </ul>
+            <!-- 七夕logo-->
+            <div class="logo"></div>
+        </li>
+    </ul> 
+    <!--飘花-->
+    <div id="snowflake"></div>
+    <div id="boy" class="charector"></div>
+</div>
+<audio src="/music/type1/happy.wav" id="audio1" preload="auto"></audio>
+<audio src="/music/type2/circulation.wav" id="audio2" preload="auto" loop="loop"></audio>
