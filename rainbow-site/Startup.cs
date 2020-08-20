@@ -26,22 +26,26 @@ namespace rainbow_site
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            // if (env.IsDevelopment())
+            // {
+            //     app.UseDeveloperExceptionPage();
+            // }
+            // else
+            // {
+            //     app.UseExceptionHandler("/Home/Error");
+            // }
 
+            app.UseExceptionHandler("/Home/Error");
+
+
+            app.UseStatusCodePagesWithReExecute("/Home/Error");
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
@@ -51,6 +55,11 @@ namespace rainbow_site
                     name: "Home",
                     template: "/{action}/{lang}",
                     new { controller = "Home", action = "Index", lang = "zh-cn" }
+                );
+                routes.MapRoute(
+                    name: "Qixi",
+                    template: "/{controller}/{action}",
+                    new { Controller = "Qixi", action = "Index"}
                 );
             });
         }

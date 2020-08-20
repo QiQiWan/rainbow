@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using rainbow_site.Models;
@@ -7,11 +8,19 @@ namespace rainbow_site.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
+
+        // 构造注入请求上下文
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public HomeController(IHttpContextAccessor httpContextAccessor)
         {
+            _httpContextAccessor = httpContextAccessor;
+
+
             Common.UpdateDate();
             BGImg = Common.backgroundImg;
         }
+
         public void LanguageChanges(string lang)
         {
             switch (lang)
@@ -65,13 +74,21 @@ namespace rainbow_site.Controllers
         {
             ViewData["BGImg"] = BGImg;
             LanguageChanges(lang);
-            
+
             return View("add");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+        // 错误页面重定向
         public IActionResult Error()
         {
+            string url = _httpContextAccessor.HttpContext.Request.Host.Value;
+            Console.WriteLine(url);
+
+
+
+            //return Redirect(url);
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

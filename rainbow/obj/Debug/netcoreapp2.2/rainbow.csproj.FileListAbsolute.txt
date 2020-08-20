@@ -20,4 +20,3 @@ G:/study/C#实验/初期/rainbow/rainbow/obj/Debug/netcoreapp2.2/rainbow.pdb
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.runtimeconfig.dev.json
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.dll
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.pdb
-/home/eatrice/桌面/rainbow/rainbow/obj/Debug/netcoreapp2.2/rainbow.genruntimeconfig.cache

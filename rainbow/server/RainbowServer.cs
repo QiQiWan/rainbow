@@ -60,7 +60,11 @@ namespace rainbow
             string responseString = CGI.GetResponse(result.Request);
 
             byte[] buffer;
-            //搜索引擎抓取
+
+            // 正常响应
+            buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+
+            // 搜索引擎抓取
             if (responseString == "robot")
             {
                 string robotFile = "robot.txt";
@@ -73,9 +77,14 @@ namespace rainbow
                 fs.Read(buffer, 0, buffer.Length);
                 fs.Close();
             }
-            else//正常字符串相应
-            {
-                buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+            // 格式化句子
+            if(responseString == "format"){
+                string formatFile = "format.html";
+                buffer = FileHelper.ReadBuffer(formatFile);
+
+                // 防止作为附件下载
+                response.AddHeader("Content-Type", "text/html; charset=UTF-8");
+                response.AddHeader("Content-Disposition", "inline");
             }
 
             response.ContentLength64 = buffer.Length;
@@ -84,7 +93,7 @@ namespace rainbow
             output.Close();
             response.Close();
 
-            Loger.Log(result.Request.Url.AbsolutePath);
+            Loger.Log("客户端请求地址：" + result.Request.Url.AbsolutePath);
         }
 
         /// <summary>

@@ -7,7 +7,7 @@ namespace rainbow_site
         public static string backgroundImg;
         public static DateTime date = DateTime.Now;
         public static void InitBGImg(){
-            string[] filePaths = FileHelper.GetFileList("wwwroot/img/");
+            string[] filePaths = FileHelper.GetFileList("wwwroot/img/mainbackground/");
             backgroundImg = "/img/" + filePaths[new Random().Next(0, filePaths.Length)];
         }
         /// <summary>

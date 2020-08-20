@@ -44,7 +44,10 @@ namespace rainbow
                         context = Common.manager.AllModelString;
                         break;
                     case "/robot.txt":
-                        context  = "robot";
+                        context = "robot";
+                        break;
+                    case "/format.html":
+                        context = "format";
                         break;
                     default:
                         context = Common.manager.GetModel(SModelType.Reading).ToJsonString();

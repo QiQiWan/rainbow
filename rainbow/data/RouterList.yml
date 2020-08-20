@@ -9,3 +9,5 @@
 /GetAll: /GetAll/
 /GetAll/: /GetAll/
 /robot.txt: /robot.txt
+/format/: /format.html
+/format: /format.html
