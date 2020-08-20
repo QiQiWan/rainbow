@@ -31,7 +31,7 @@ namespace rainbow_site.Controllers
             // 指定母版
             ViewData["Layout"] = "_QixiLayout";
             ViewData["MyLove"] = SetDefaultValue(Request, key: "MyLove", defaultValue: "My Love");
-            ViewData["Year"] =  SetDefaultValue(Request, key: "Year", defaultValue: "2017");
+            ViewData["Year"] = SetDefaultValue(Request, key: "Year", defaultValue: "2017");
             ViewData["Month"] = SetDefaultValue(Request, key: "Month", defaultValue: "7");
             ViewData["Day"] = SetDefaultValue(Request, key: "Day", defaultValue: "25");
             ViewData["Hour"] = SetDefaultValue(Request, key: "Hour", defaultValue: "20");
@@ -41,7 +41,9 @@ namespace rainbow_site.Controllers
 
             return View();
         }
-        private string SetDefaultValue(HttpRequest request, string key, string defaultValue){
+        private string SetDefaultValue(HttpRequest request, string key, string defaultValue)
+        {
             return request.Query.ContainsKey(key) ? request.Query[key].ToString() : defaultValue;
         }
     }
+}
