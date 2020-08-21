@@ -12,6 +12,20 @@
 
 `Views/` 为 `cshtml` 模板目录
 
+## Qixi专题
+
+网站开通了七夕专题，目前包括两个页面：
+1. https://rainbow.eatrice.top/Qixi/Type1
+2. https://rainbow.eatrice.top/Qixi/Type2
+
+直接访问可以进行预览。
+
+对于Type2，可以修改网页呈现的一部分内容：
+`MyLove`决定信的开头
+`MyName`决定信的落款
+`Year`, `Month`, `Day`, `Hour`, `Minute`, `Second`决定日期的呈现。
+预览中为默认值，其对应的URL为：https://rainbow.eatrice.top/Qixi/Type2?MyLove=Qiqi&MyName=EatRice&Year=2019&Month=6&Day=24&Hour=20&Minute=0&Second=0
+
 ## 运行
 
 网站运行依赖于:

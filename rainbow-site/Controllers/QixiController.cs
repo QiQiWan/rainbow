@@ -11,6 +11,7 @@ namespace rainbow_site.Controllers
 
         public QixiController()
         {
+            Loger.log("获得请求地址为：" + Request.Url.ToString());
             ViewData["Layout"] = "_QixiLayout";
         }
 

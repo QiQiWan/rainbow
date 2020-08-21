@@ -15,8 +15,6 @@ namespace rainbow_site.Controllers
         public HomeController(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
-
-
             Common.UpdateDate();
             BGImg = Common.backgroundImg;
         }
@@ -43,6 +41,7 @@ namespace rainbow_site.Controllers
         public IActionResult Index(string lang)
         {
             ViewData["BGImg"] = BGImg;
+
             LanguageChanges(lang);
 
             if (lang == "en")

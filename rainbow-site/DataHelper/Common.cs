@@ -4,6 +4,7 @@ namespace rainbow_site
 {
     public class Common
     {
+        public static object Lock;//进程锁
         public static string backgroundImg;
         public static DateTime date = DateTime.Now;
         public static void InitBGImg(){

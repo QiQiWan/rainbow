@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj": {}
+    "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj": {}
   },
   "projects": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj": {
+    "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj",
+        "projectUniqueName": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj",
         "projectName": "rainbow-site",
-        "projectPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj",
-        "packagesPath": "C:\\Users\\EatRice\\.nuget\\packages\\",
-        "outputPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\obj\\",
+        "projectPath": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj",
+        "packagesPath": "C:\\Users\\scl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\EatRice\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\scl\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,16 +58,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
