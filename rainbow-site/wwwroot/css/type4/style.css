@@ -75,7 +75,7 @@ a:hover {
     position: absolute;
     top: 30%;
     line-height: 1.5em;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -83,7 +83,7 @@ a:hover {
     width: 80%;
     position: absolute;
     top: 38%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5em;
     margin: 5%;
     padding: 5%;
