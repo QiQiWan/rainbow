@@ -179,3 +179,4 @@ C:/Users/scl/Desktop/rainbow.eatrice.top/rainbow/rainbow-site/obj/Debug/netcorea
 /home/eatrice/桌面/rainbow/rainbow-site/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
 /home/eatrice/桌面/rainbow/rainbow-site/obj/Debug/netcoreapp2.2/rainbow-site.genruntimeconfig.cache
 /home/eatrice/桌面/rainbow/rainbow-site/obj/Debug/netcoreapp2.2/Razor/Views/Qixi/Type3.cshtml.g.cs
+/home/eatrice/桌面/rainbow/rainbow-site/obj/Debug/netcoreapp2.2/Razor/Views/Qixi/Type4.cshtml.g.cs

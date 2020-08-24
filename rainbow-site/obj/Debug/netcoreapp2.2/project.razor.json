@@ -1872,6 +1872,11 @@
   "RootNamespace": "rainbow_site",
   "Documents": [
     {
+      "FilePath": "/home/eatrice/桌面/rainbow/rainbow-site/Views/Qixi/Type4.cshtml",
+      "TargetPath": "Views\\Qixi\\Type4.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/eatrice/桌面/rainbow/rainbow-site/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

@@ -32,4 +32,35 @@ namespace rainbow_site
             return builder.UseMiddleware<WebLogerMiddleWare>();
         }
     }
+
+    public class Jump404Middleware
+    {
+        private readonly RequestDelegate next;
+
+        public Jump404Middleware(RequestDelegate next)
+        {
+            this.next = next;
+        }
+
+        public async Task Invoke(Microsoft.AspNetCore.Http.HttpContext context)
+        {
+            // 让请求回来
+            await next.Invoke(context);
+
+            var response = context.Response;
+
+            //如果是404就跳转到主页
+            if (response.StatusCode == 404)
+            {
+                response.Redirect("/");
+            }
+        }
+    }
+    public static class Jump404MiddlewareExtension
+    {
+        public static void UseJump404(this IApplicationBuilder app)
+        {
+            app.UseMiddleware<Jump404Middleware>();
+        }
+    }
 }

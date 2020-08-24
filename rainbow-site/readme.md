@@ -18,6 +18,8 @@
 1. https://rainbow.eatrice.top/Qixi/Type1
 2. https://rainbow.eatrice.top/Qixi/Type2
 3. https://rainbow.eatrice.top/Qixi/Type3
+4. https://rainbow.eatrice.top/Qixi/Type4
+
 
 直接访问可以进行预览，访问[https://rainbow.eatrice.top/Qixi/](https://rainbow.eatrice.top/Qixi/)以获取更多信息。
 

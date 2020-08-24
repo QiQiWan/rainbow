@@ -58,6 +58,16 @@
                     <li>Type3 当前支持自定义表白内容，在下方的文本输入框输入相关内容即可，不支持特殊符号‘和#。</li>
                 </ol>
 
+                <h4><strong>Type4</strong>:<a href="https://rainbow.eatrice.top/Qixi/Type4/">图片加文字，https://rainbow.eatrice.top/Qixi/Type4/</a>;</h4>
+
+                <p><strong>说明：</strong>该页面有以下几处可自定义处：</p>
+
+                <ol>
+                    <li>首页中央的对方名字：<code>My Love</code>，对应链接生成器属性为：<code>MyLove</code></li>
+                    <li>首页中央的本人名字：<code>EatRice.Me</code>，对应链接生成器属性为：<code>MyName</code></li>
+                    <li>最后一页的时间记录，该时间记录表示为你与所表白的对象第一次在一起的时刻至今的时间，因此可以修改认识的初始时间，程序会自动计算至今为止的时间：对应预览为右侧不断刷新的时间。根据提示在下方输入对应的时间即可。</li>
+                    <li>Type4 当前支持自定义每页的一句话句子，可根据以下提示进行填写，不填写则为预览句子。</li>
+                </ol>
 
                 <h3>链接生成</h3>
 
@@ -70,6 +80,7 @@
                     </li>
                     <li><a href="#Type2" data-toggle="tab">Type2</a></li>
                     <li><a href="#Type3" data-toggle="tab">Type3</a></li>
+                    <li><a href="#Type4" data-toggle="tab">Type4</a></li>
                 </ul>
 
                 <div id="myTabContent" class="tab-content">
@@ -197,7 +208,96 @@
                         <script>
                         </script>
                     </div>
+                    
+                    <div class="tab-pane fade" id="Type4">
+                        <div class="panel">
+                            <p class="h5">所有输入框均为选填，若不填则使用默认值代替，默认值见预览</p>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">预览地址</span>
+                                <input type="text" id='type4BasicUrl' readonly="readonly" class="form-control" value="https://rainbow.eatrice.top/Qixi/Type4/">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyLove</span>
+                                <input type="text" class="form-control" id="type4MyLove" aria-describedby="basic-addon3" placeholder="Qiqi">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyName</span>
+                                <input type="text" class="form-control" id="type4MyName" aria-describedby="basic-addon3" placeholder="EatRice.Me">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">Year</span>
+                                <input type="number" class="form-control" id="type4Year" aria-describedby="basic-addon3" placeholder="2019">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Month</span>
+                                <input type="number" class="form-control" id="type4Month" aria-describedby="basic-addon3" placeholder="6">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Day</span>
+                                <input type="number" class="form-control" id="type4Day" aria-describedby="basic-addon3" placeholder="24">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Hour</span>
+                                <input type="number" class="form-control" id="type4Hour" aria-describedby="basic-addon3" placeholder="23">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Minute</span>
+                                <input type="number" class="form-control" id="type4Minute" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Second</span>
+                                <input type="number" class="form-control" id="type4Second" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第一页句子</span>
+                                <input type="number" class="form-control" id="type4S1" aria-describedby="basic-addon3" placeholder="自见过你那一天，我学会了失眠，不为你的容颜，只忆你的笑脸">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第二页句子</span>
+                                <input type="number" class="form-control" id="type4S2" aria-describedby="basic-addon3" placeholder="若不能分分钟见到你的身影，我便会惶恐不安，你的出现，占满了我的视线，我愿跟随你永远。">
+                            </div>                            
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第三页句子</span>
+                                <input type="number" class="form-control" id="type4S3" aria-describedby="basic-addon3" placeholder="之前我不相信一见钟情，但是见到你的那一刻，我否定了我的看法。">
+                            </div>                            
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第四页句子</span>
+                                <input type="number" class="form-control" id="type4S4" aria-describedby="basic-addon3" placeholder="我的心为你沦陷，从此只为你跳动。">
+                            </div>                           
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第五页句子</span>
+                                <input type="number" class="form-control" id="type4S5" aria-describedby="basic-addon3" placeholder="有一种爱的感觉，叫感同身受。">
+                            </div>                            
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第六页句子</span>
+                                <input type="number" class="form-control" id="type4S6" aria-describedby="basic-addon3" placeholder="有一种爱的默契，叫心有灵犀。">
+                            </div>                           
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第七页句子</span>
+                                <input type="number" class="form-control" id="type4S7" aria-describedby="basic-addon3" placeholder="有一种爱的承诺，叫天长地久。">
+                            </div>                            
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第八页句子</span>
+                                <input type="number" class="form-control" id="type4S8" aria-describedby="basic-addon3" placeholder="有一种爱的方式，是执子之手,与子携老。">
+                            </div>                            
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">第九页句子</span>
+                                <input type="number" class="form-control" id="type4S9" aria-describedby="basic-addon3" placeholder="我一直在">
+                            </div>
+
+                            <div class="input-group">
+                                <input id="type4Link" type="text" readonly="readonly" class="form-control">
+                                <span class="input-group-btn">
+                               <button class="btn btn-default" type="button" onclick="javascript:copytype4('type4Link')">点击生成链接并复制</button>
+                             </span>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                    </div>
+                    </div>
                 </div>
+
+
                 <script>
                     $(function() {
                         $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
@@ -262,7 +362,31 @@
                         copy(linkbox);
                         displayAlert();
                     }
+                    function copytype4(linkbox) {
+                        var url = $('#type4BasicUrl').val() + '?';
+                        url += selectargument("type4MyLove", "MyLove");
+                        url += selectargument("type4MyName", "MyName");
+                        url += selectargument("type4Year", "Year");
+                        url += selectargument("type4Month", "Month");
+                        url += selectargument("type4Hour", "Hour");
+                        url += selectargument("type4Minute", "Minute");
+                        url += selectargument("type4Second", "Second");
+                        url += selectargument("type4S1", "S1");
+                        url += selectargument("type4S2", "S2");
+                        url += selectargument("type4S3", "S3");
+                        url += selectargument("type4S4", "S4");
+                        url += selectargument("type4S5", "S5");
+                        url += selectargument("type4S6", "S6");
+                        url += selectargument("type4S7", "S7");
+                        url += selectargument("type4S8", "S8");
+                        url += selectargument("type4S9", "S9");
 
+                        // 对url编码
+                        url = encodeURI(url);
+                        $('#' + linkbox).attr("value", url);
+                        copy(linkbox);
+                        displayAlert();
+                    }
                     function selectargument(inputID, inputName) {
                         if ($('#' + inputID).val() != "")
                             return inputName + "=" + $('#' + inputID).val() + "&";
