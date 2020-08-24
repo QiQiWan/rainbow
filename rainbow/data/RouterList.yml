@@ -8,6 +8,6 @@
 /reading: /reading/
 /GetAll: /GetAll/
 /GetAll/: /GetAll/
-/robot.txt: /robot.txt
+/robots.txt: /robots.txt
 /format/: /format.html
 /format: /format.html

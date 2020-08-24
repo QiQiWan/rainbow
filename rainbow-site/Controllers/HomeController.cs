@@ -24,15 +24,13 @@ namespace rainbow_site.Controllers
             switch (lang)
             {
                 case "en":
-                    ViewData["IndexUrl"] = "/Index/en/";
-                    ViewData["AboutUrl"] = "/About/en/";
-                    ViewData["AboutTitle"] = "About";
+                    NavModel.Culture = CultureLanguage.EN;
+                    NavModel.Refresh();
                     ViewData["LangDes"] = "语言: 英语";
                     break;
                 default:
-                    ViewData["IndexUrl"] = "/";
-                    ViewData["AboutUrl"] = "/About/";
-                    ViewData["AboutTitle"] = "关于";
+                    NavModel.Culture = CultureLanguage.CH;
+                    NavModel.Refresh();
                     ViewData["LangDes"] = "Language: English";
                     break;
             }
@@ -41,6 +39,8 @@ namespace rainbow_site.Controllers
         public IActionResult Index(string lang)
         {
             ViewData["BGImg"] = BGImg;
+
+            lang = lang.ToLower();
 
             LanguageChanges(lang);
 
@@ -51,6 +51,7 @@ namespace rainbow_site.Controllers
         }
         public IActionResult About(string lang)
         {
+            lang = lang.ToLower();
             ViewData["BGImg"] = BGImg;
             LanguageChanges(lang);
 
@@ -83,10 +84,8 @@ namespace rainbow_site.Controllers
         public IActionResult Error()
         {
             string url = _httpContextAccessor.HttpContext.Request.Host.Value;
-            Console.WriteLine(url);
 
-
-
+             HttpContext.Response.Redirect("/");
             //return Redirect(url);
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }

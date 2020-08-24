@@ -1,77 +1,308 @@
 @{
-    ViewData["Title"] = "共度七夕";
+    ViewData["LangDes"] = "语言: 英语";
+    ViewData["Title"] = "❤七夕专题❤";
+    ViewData["FooterClass"] = "position";
+
 }
 
-<script src="/js/animation.js"></script>
-<link href="/css/animation.css" rel="stylesheet" type="text/css" />
+    <style>
+        #alert {
+            transition: .8s;
+            visibility: hidden;
+        }
+        
+        input {
+            margin: 12px;
+        }
 
-<div id="content">
-    <ul class="content_wrap">
-        <li>
-            <!--背景图-->
-            <div class="a_background">
-                <div class="a_background_top"></div>
-                <div class="a_background_middle"></div>
-                <div class="a_background_botton"></div>
-            </div>
-            <!-- 云 -->
-            <div class="cloudArea">
-                <div class="cloud cloud1 cloud1Anim"></div>
-                <div class="cloud cloud2 cloud2Anim"></div>
-            </div>
-            <!-- 太阳 -->
-            <div id="sun"></div>
-        </li>
-        <li>
-            <!-- 背景图 -->
-            <div class="b_background"></div>
-            <div class="b_background_preload"></div>
-            <!-- 商店 -->
-            <div class="shop">
-                <div class="door">
-                    <div class="door-left"></div>
-                    <div class="door-right"></div>
+        .input_number{
+           wdith: 80px;
+        }
+        p, ol {
+            font-size: large;
+        }
+
+    </style>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <div class="py-5" id="board">
+        <div class="post-content mx-auto" id="post">
+            <article class="markdown-body">
+
+                <h3>类型列表（直接点击对应标题可预览）</h3>
+
+                <h4><strong>Type1</strong>:<a href="https://rainbow.eatrice.top/Qixi/Type1/">欢度七夕动画，https://rainbow.eatrice.top/Qixi/Type1/</a>;</h4>
+
+                <p><strong>说明：</strong>该动画固定了时间序列和切换时序，全动画由各种图片运动而成，无文字。未有自定义链接。</p>
+
+                <h4><strong>Type2</strong>:<a href="https://rainbow.eatrice.top/Qixi/Type2/">很长的一段文字和日期，https://rainbow.eatrice.top/Qixi/Type2/</a>;</h4>
+
+                <p><strong>说明：</strong>该页面有以下几处可自定义处：</p>
+
+                <ol>
+                    <li>左上角信件的收件人：预览对应值为<code>My Love</code>，对应链接生成器属性为：<code>MyLove</code></li>
+                    <li>右下角的落款：预览对应为<code>EatRice.Me</code>，对应链接生成器属性为：<code>MyName</code></li>
+                    <li>右侧的时间记录，该时间记录表示为你与所表白的对象第一次在一起的时刻至今的时间，因此可以修改认识的初始时间，程序会自动计算至今为止的时间：对应预览为右侧不断刷新的时间。根据提示在下方输入对应的时间即可。</li>
+                </ol>
+
+                <h4><strong>Type3</strong>:<a href="https://rainbow.eatrice.top/Qixi/Type3/">火树银花，https://rainbow.eatrice.top/Qixi/Type3/</a>;</h4>
+
+                <p><strong>说明：</strong>该页面有以下几处可自定义处：</p>
+
+                <ol>
+                    <li>左上角信件的收件人：预览对应值为<code>My Love</code>，对应链接生成器属性为：<code>MyLove</code></li>
+                    <li>右下角的落款：预览对应为<code>EatRice.Me</code>，对应链接生成器属性为：<code>MyName</code></li>
+                    <li>右侧的时间记录，该时间记录表示为你与所表白的对象第一次在一起的时刻至今的时间，因此可以修改认识的初始时间，程序会自动计算至今为止的时间：对应预览为右侧不断刷新的时间。根据提示在下方输入对应的时间即可。</li>
+                    <li>Type3 当前支持自定义表白内容，在下方的文本输入框输入相关内容即可，不支持特殊符号‘和#。</li>
+                </ol>
+
+
+                <h3>链接生成</h3>
+
+                <div class="alert alert-success " role="alert" id='alert'>
+                    <strong>Success!</strong>复制成功，快去分享吧！
                 </div>
-                <!-- 灯 -->
-                <div class="lamp"></div>
-            </div>
-            <!--鸟-->
-            <div class="bird"></div>
-        </li>
-        <li>
-            <!-- 背景图 -->
-            <div class="c_background">
-                <div class="c_background_top"></div>
-                <div class="c_background_middle"></div>
-                <div class="c_background_botton"></div>
-            </div>
-            <!-- 小女孩 -->
-            <div class="girl"></div>
-            <!-- 水波 -->
-            <div class="bridge-bottom">
-                <div class="water">
-                    <div id="water1" class="water_1"></div>
-                    <div id="water2" class="water_2"></div>
-                    <div id="water3" class="water_3"></div>
-                    <div id="water4" class="water_4"></div>
+
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#Type1" data-toggle="tab">Type1</a>
+                    </li>
+                    <li><a href="#Type2" data-toggle="tab">Type2</a></li>
+                    <li><a href="#Type3" data-toggle="tab">Type3</a></li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="Type1">
+                        <div class='panel'>
+                            <p class="h5">该类型页面无自定义内容，直接复制链接分享即可。</p>
+                            <div class="input-group">
+                                <input id="TypeLink" type="text" readonly="readonly" class="form-control" value="https://rainbow.eatrice.top/Qixi/Type1/">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button" onclick="javascript:copy('TypeLink')">Copy!</button>
+                                  </span>
+                            </div>
+                            <!-- /input-group -->
+                            <!-- /.col-lg-6 -->
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="Type2">
+                        <div class="panel">
+                            <p class="h5">所有输入框均为选填，若不填则使用默认值代替，默认值见预览</p>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">预览地址</span>
+                                <input type="text" id='type2BasicUrl' readonly="readonly" class="form-control" value="https://rainbow.eatrice.top/Qixi/Type2/">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyLove</span>
+                                <input type="text" class="form-control" id="type2MyLove" aria-describedby="basic-addon3" placeholder="Qiqi">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyName</span>
+                                <input type="text" class="form-control" id="type2MyName" aria-describedby="basic-addon3" placeholder="EatRice.Me">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">Year</span>
+                                <input type="number" class="form-control" id="type2Year" aria-describedby="basic-addon3" placeholder="2019">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Month</span>
+                                <input type="number" class="form-control" id="type2Month" aria-describedby="basic-addon3" placeholder="6">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Day</span>
+                                <input type="number" class="form-control" id="type2Day" aria-describedby="basic-addon3" placeholder="24">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Hour</span>
+                                <input type="number" class="form-control" id="type2Hour" aria-describedby="basic-addon3" placeholder="23">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Minute</span>
+                                <input type="number" class="form-control" id="type2Minute" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Second</span>
+                                <input type="number" class="form-control" id="type2Second" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+
+                            <div class="input-group">
+                                <input id="Type2Link" type="text" readonly="readonly" class="form-control">
+                                <span class="input-group-btn">
+                               <button class="btn btn-default" type="button" onclick="javascript:copyType2('Type2Link')">点击生成链接并复制</button>
+                             </span>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                        <script>
+                        </script>
+                    </div>
+
+                    <div class="tab-pane fade" id="Type3">
+                        <div class="panel">
+                            <p class="h5">所有输入框均为选填，若不填则使用默认值代替，默认值见预览</p>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">预览地址</span>
+                                <input type="text" id='type3BasicUrl' readonly="readonly" class="form-control" value="https://rainbow.eatrice.top/Qixi/Type3/">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyLove</span>
+                                <input type="text" class="form-control" id="type3MyLove" aria-describedby="basic-addon3" placeholder="Qiqi">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">MyName</span>
+                                <input type="text" class="form-control" id="type3MyName" aria-describedby="basic-addon3" placeholder="EatRice.Me">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">Year</span>
+                                <input type="number" class="form-control" id="type3Year" aria-describedby="basic-addon3" placeholder="2019">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Month</span>
+                                <input type="number" class="form-control" id="type3Month" aria-describedby="basic-addon3" placeholder="6">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Day</span>
+                                <input type="number" class="form-control" id="type3Day" aria-describedby="basic-addon3" placeholder="24">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Hour</span>
+                                <input type="number" class="form-control" id="type3Hour" aria-describedby="basic-addon3" placeholder="23">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Minute</span>
+                                <input type="number" class="form-control" id="type3Minute" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon input_number" id="basic-addon3">Second</span>
+                                <input type="number" class="form-control" id="type3Second" aria-describedby="basic-addon3" placeholder="0">
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">自定义表白内容（可换行输入）</span>
+                                </div>
+                                <textarea class="form-control" id="statements" aria-label="With textarea"></textarea>
+                            </div>
+
+                            <div class="input-group">
+                                <input id="Type3Link" type="text" readonly="readonly" class="form-control">
+                                <span class="input-group-btn">
+                               <button class="btn btn-default" type="button" onclick="javascript:copyType3('Type3Link')">点击生成链接并复制</button>
+                             </span>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                        <script>
+                        </script>
+                    </div>
                 </div>
+                <script>
+                    $(function() {
+                        $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+                            // Get the name of active tab
+                            var activeTab = $(e.target).text();
+                            // Get the name of previous tab
+                            var previousTab = $(e.relatedTarget).text();
+                            $(".active-tab span").html(activeTab);
+                            $(".previous-tab span").html(previousTab);
+                        });
+                    });
+
+                    function copy(linkDiv) {
+                        var linkBox = document.getElementById(linkDiv);
+                        linkBox.select();
+                        //进行复制到剪切板
+                        if (document.execCommand("Copy", "false", null)) {
+                            //如果复制成功
+                            linkBox.selectionStart = 0;
+                            linkBox.selectionEnd = 0;
+                            displayAlert();
+                        }
+                    }
+
+                    function displayAlert() {
+                        $('#alert').css("visibility", "visible");
+                        setTimeout(() => {
+                            $('#alert').css("visibility", "hidden");
+                        }, 1500);
+                    }
+
+                    function copyType2(linkbox) {
+                        var url = $('#type2BasicUrl').val() + '?';
+                        url += selectargument("type2MyLove", "MyLove");
+                        url += selectargument("type2MyName", "MyName");
+                        url += selectargument("type2Year", "Year");
+                        url += selectargument("type2Month", "Month");
+                        url += selectargument("type2Hour", "Hour");
+                        url += selectargument("type2Minute", "Minute");
+                        url += selectargument("type2Second", "Second");
+                        // 对url编码
+                        url = encodeURI(url);
+                        $('#' + linkbox).attr("value", url);
+                        copy(linkbox);
+                        displayAlert();
+                    }
+
+                    function copyType3(linkbox) {
+                        var url = $('#type3BasicUrl').val() + '?';
+                        url += selectargument("type3MyLove", "MyLove");
+                        url += selectargument("type3MyName", "MyName");
+                        url += selectargument("type3Year", "Year");
+                        url += selectargument("type3Month", "Month");
+                        url += selectargument("type3Hour", "Hour");
+                        url += selectargument("type3Minute", "Minute");
+                        url += selectargument("type3Second", "Second");
+                        url += selectStatements();
+
+                        // 对url编码
+                        url = encodeURI(url);
+                        $('#' + linkbox).attr("value", url);
+                        copy(linkbox);
+                        displayAlert();
+                    }
+
+                    function selectargument(inputID, inputName) {
+                        if ($('#' + inputID).val() != "")
+                            return inputName + "=" + $('#' + inputID).val() + "&";
+                        return "";
+                    }
+
+                    function selectStatements() {
+                        var statement = selectargument("statements", "statements");
+                        statement = statement.replace(/\n/g, "'");
+                        console.log(statement);
+                        return statement;
+                    }
+                </script>
+            </article>
+            <h3>意见或建议</h3>
+            <div class="comments" id="comments" style="display: block;">
+                <div id="vcomments"></div>
+                <script src="https://cdn.staticfile.org/valine/1.4.4/Valine.min.js"></script>
+                <script type="text/javascript">
+                    console.log('评论正在加载...');
+                    new Valine({
+                        el: "#vcomments",
+                        app_id: "ut4YhjXKhs59W7h1ljDfgOAG-gzGzoHsz",
+                        app_key: "dzKTc4w4K1maxEg8E5243rrH",
+                        placeholder: "有啥意见或建议可以在这里留言哦^0^\n(支持MarkDown语法)",
+                        path: window.location.pathname,
+                        avatar: "retro",
+                        meta: ["nick", "mail"],
+                        pageSize: "10",
+                        lang: "zh-CN",
+                        highlight: true,
+                        recordIP: true,
+                        serverURLs: "",
+                    });
+                    console.log('评论加载完成');
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank"
+                      rel="nofollow noopener noopener">comments
+                      powered by Valine.</a></noscript>
+
             </div>
-            <!-- 星星 -->
-            <ulclass="stars">
-                <li class="stars1"></li>
-                <li class="stars2"></li>
-                <li class="stars3"></li>
-                <li class="stars4"></li>
-                <li class="stars5"></li>
-                <li class="stars6"></li>
-            </ul>
-            <!-- 七夕logo-->
-            <div class="logo"></div>
-        </li>
-    </ul> 
-    <!--飘花-->
-    <div id="snowflake"></div>
-    <div id="boy" class="charector"></div>
-</div>
-<audio src="/music/type1/happy.wav" id="audio1" preload="auto"></audio>
-<audio src="/music/type2/circulation.wav" id="audio2" preload="auto" loop="loop"></audio>
+        </div>
+    </div>

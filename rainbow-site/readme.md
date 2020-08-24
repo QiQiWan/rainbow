@@ -14,11 +14,12 @@
 
 ## Qixi专题
 
-网站开通了七夕专题，目前包括两个页面：
+网站开通了七夕专题，目前包括三个页面：
 1. https://rainbow.eatrice.top/Qixi/Type1
 2. https://rainbow.eatrice.top/Qixi/Type2
+3. https://rainbow.eatrice.top/Qixi/Type3
 
-直接访问可以进行预览。
+直接访问可以进行预览，访问[https://rainbow.eatrice.top/Qixi/](https://rainbow.eatrice.top/Qixi/)以获取更多信息。
 
 对于Type2，可以修改网页呈现的一部分内容：
 `MyLove`决定信的开头

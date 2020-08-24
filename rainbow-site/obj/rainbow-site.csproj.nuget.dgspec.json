@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj": {}
+    "/home/eatrice/桌面/rainbow/rainbow-site/rainbow-site.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj": {
+    "/home/eatrice/桌面/rainbow/rainbow-site/rainbow-site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj",
+        "projectUniqueName": "/home/eatrice/桌面/rainbow/rainbow-site/rainbow-site.csproj",
         "projectName": "rainbow-site",
-        "projectPath": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\rainbow-site.csproj",
-        "packagesPath": "C:\\Users\\scl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scl\\Desktop\\rainbow.eatrice.top\\rainbow\\rainbow-site\\obj\\",
+        "projectPath": "/home/eatrice/桌面/rainbow/rainbow-site/rainbow-site.csproj",
+        "packagesPath": "/home/eatrice/.nuget/packages/",
+        "outputPath": "/home/eatrice/桌面/rainbow/rainbow-site/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\scl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/eatrice/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -58,10 +58,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     }

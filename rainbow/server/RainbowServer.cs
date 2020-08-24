@@ -56,6 +56,7 @@ namespace rainbow
             //允许跨域请求
             response.Headers.Add("Access-Control-Allow-Origin", "*");
             response.Headers.Add("Access-Control-Allow-Methods", "GET, POST");
+            response.Headers.Add("Content-Type", "text/plain");
 
             string responseString = CGI.GetResponse(result.Request);
 
@@ -65,12 +66,13 @@ namespace rainbow
             buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
 
             // 搜索引擎抓取
-            if (responseString == "robot")
+            if (responseString == "robots")
             {
-                string robotFile = "robot.txt";
+                string robotFile = "robots.txt";
                 FileInfo file = new FileInfo(robotFile);//创建一个文件对象
                 response.ContentEncoding = Encoding.Default;//输出内容的编码为默认编码
-                response.AddHeader("Content-Disposition", "attachment;filename=" + file.Name);//添加头信息。为“文件下载/另存为”指定默认文件名称
+                //response.AddHeader("Content-Disposition", "attachment;filename=" + file.Name);//添加头信息。为“文件下载/另存为”指定默认文件名称
+                response.AddHeader("Content-Disposition", "inline");
 
                 FileStream fs = new FileStream(robotFile, FileMode.Open, FileAccess.Read, FileShare.Read);
                 buffer = new byte[fs.Length];

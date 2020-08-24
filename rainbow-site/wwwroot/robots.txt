@@ -1,0 +1,13 @@
+User-agent: *
+
+Allow: /
+
+Allow: /About/
+
+Allow: /Qixi/
+
+Allow: /Qixi/Type1/
+
+Allow: /Qixi/Type2/
+
+Sitemap: https://eatrice.top/sitemap.xml

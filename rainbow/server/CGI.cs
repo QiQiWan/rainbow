@@ -43,8 +43,8 @@ namespace rainbow
                     case "/GetAll/":
                         context = Common.manager.AllModelString;
                         break;
-                    case "/robot.txt":
-                        context = "robot";
+                    case "/robots.txt":
+                        context = "robots";
                         break;
                     case "/format.html":
                         context = "format";

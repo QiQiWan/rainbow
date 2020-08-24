@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace rainbow_site
 {
@@ -16,7 +17,7 @@ namespace rainbow_site
         static public void CheckLogFileName()
         {
             currentLog = "log/" + DateTime.Now.ToShortDateString().Replace('/', '-') + ".txt";
-            if(!FileHelper.FileExists(currentLog))
+            if (!FileHelper.FileExists(currentLog))
                 FileHelper.CreatFile(currentLog);
         }
         /// <summary>
@@ -31,6 +32,18 @@ namespace rainbow_site
             Console.WriteLine(infotext);
             WriteLogs(infotext);
         }
+
+        static public async Task LogAsync(string info)
+        {
+            string infotext = DateTime.Now.ToLocalTime() + " [info] " + info;
+            Console.ForegroundColor = ConsoleColor.White;
+            WriteLogs(infotext);
+            await Task.Run(() =>
+            {
+                Console.WriteLine(infotext);
+            });
+        }
+
         /// <summary>
         /// 日志记录方法
         /// </summary>
@@ -62,7 +75,8 @@ namespace rainbow_site
             infotext += info;
             Console.WriteLine(infotext);
         }
-        static public void LogWrong(string Wrong){
+        static public void LogWrong(string Wrong)
+        {
             string infotext = DateTime.Now.ToLocalTime() + " [wrong] " + Wrong;
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(infotext);
