@@ -14,7 +14,16 @@ namespace rainbow
         //获取句子文件列表
         static public FileInfo[] GetResouceList() => workapace.GetFiles();
         static public string CreateFullName(FileInfo file) => "resource/" + file.Name;
-        static public readonly string[] FileLists = { "movies.yml", "reading.yml", "songs.yml" };
+        static public readonly List<SourceType> FileLists;
+
+        static YmlReader()
+        {
+            FileLists = new List<SourceType>();
+            FileLists.Clear();
+            FileLists.Add(new SourceType("movies.yml", SModelType.Movies));
+            FileLists.Add(new SourceType("reading.yml", SModelType.Reading));
+            FileLists.Add(new SourceType("songs.yml", SModelType.Songs));
+        }
 
         /// <summary>
         /// 初始化句子管理器
@@ -38,30 +47,18 @@ namespace rainbow
         {
             List<SModel> list = new List<SModel>();
             int level = 1;
-            foreach (var path in FileLists)
+            foreach (var type in FileLists)
             {
                 int i = level * 10000;
-                string fileName = "resource/" + path;
+                string fileName = "resource/" + type.FileName;
                 string origin = FileHelper.ReadFile(fileName);
 
-                SModelType type;
+                SModelType sType = type.Type;
 
-                switch (path)
-                {
-                    case "movies.yml":
-                        type = SModelType.Movies;
-                        break;
-                    case "reading.yml":
-                        type = SModelType.Reading;
-                        break;
-                    default:
-                        type = SModelType.Songs;
-                        break;
-                }
 
                 foreach (var item in RegexHelper.MatchObj(RegexHelper.objPattern, origin))
                 {
-                    list.Add(GetModel(item, i, type));
+                    list.Add(GetModel(item, i, sType));
                     i++;
                 }
                 level++;
@@ -142,6 +139,16 @@ namespace rainbow
             string result = Regex.Match(origin, pattern).Value.Replace(eleName + "=", "");
 
             return result;
+        }
+    }
+    class SourceType
+    {
+        public readonly string FileName;
+        public readonly SModelType Type;
+        public SourceType(string fileName, SModelType type)
+        {
+            this.FileName = fileName;
+            this.Type = type;
         }
     }
 }
