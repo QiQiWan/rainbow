@@ -195,5 +195,5 @@ namespace rainbow
             return AllModelString = json;
         }
     }
-    public enum SModelType { Reading, Movies, Songs };
+    public enum SModelType { Reading, Movies, Songs, Poetries };
 }

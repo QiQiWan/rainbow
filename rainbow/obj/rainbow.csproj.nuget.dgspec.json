@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "h:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {}
+    "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {}
   },
   "projects": {
-    "h:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {
+    "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
+        "projectUniqueName": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
         "projectName": "rainbow",
-        "projectPath": "h:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
+        "projectPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
         "packagesPath": "C:\\Users\\EatRice\\.nuget\\packages\\",
-        "outputPath": "h:\\study\\C#实验\\初期\\rainbow\\rainbow\\obj\\",
+        "outputPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\EatRice\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -26,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -37,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -55,7 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

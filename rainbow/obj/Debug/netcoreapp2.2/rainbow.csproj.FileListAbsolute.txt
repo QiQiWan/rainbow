@@ -20,3 +20,15 @@ G:/study/C#实验/初期/rainbow/rainbow/obj/Debug/netcoreapp2.2/rainbow.pdb
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.runtimeconfig.dev.json
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.dll
 /home/eatrice/桌面/rainbow/rainbow/bin/Debug/netcoreapp2.2/rainbow.pdb
+H:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.deps.json
+H:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.runtimeconfig.json
+H:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.runtimeconfig.dev.json
+H:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.dll
+H:\study\C#实验\初期\rainbow\rainbow\bin\Debug\netcoreapp2.2\rainbow.pdb
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.csprojAssemblyReference.cache
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.AssemblyInfoInputs.cache
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.AssemblyInfo.cs
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.csproj.CoreCompileInputs.cache
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.dll
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.pdb
+H:\study\C#实验\初期\rainbow\rainbow\obj\Debug\netcoreapp2.2\rainbow.genruntimeconfig.cache
