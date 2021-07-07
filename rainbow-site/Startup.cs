@@ -43,12 +43,20 @@ namespace rainbow_site
             // }
 
             app.UseExceptionHandler("/Home/Error");
-
-
             app.UseStatusCodePagesWithReExecute("/Home/Error");
+
+            app.UseWebLoger();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
+            /// 记录请求地址中间件
+            // app.Use(async (context, next) =>
+            // {
+            //     HttpRequest request = context.Request;
+            //     Loger.Log("当前请求地址为：" + UrlHelper.GetAbsoluteUri(request));
+            //     await next();
+            // });
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -63,6 +71,7 @@ namespace rainbow_site
                     new { Controller = "Qixi", action = "Index" }
                 );
             });
+
         }
     }
 }

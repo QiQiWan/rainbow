@@ -1,18 +1,10 @@
 @{
 ViewData["Title"] = "Rainbow - 格式化字符串";
 ViewData["FooterClass"] = "position";
-ViewData["AboutTitle"] = "关于";
 ViewData["LangLink"] = "/Format/";
 }
 
-<div class="text-center v-top">
-    <div class="h2">
-        <p class="h3 text-white" id="subtitle">
-        </p>
-    </div>
-</div>
-<div class="py-5" id="board">
-    <div class="post-content mx-auto" id="post">
+<br /><br /><br />
     <p>content:<input type="text" class="form-control" id="content" /></p>
     <p>author:<input type="text" class="form-control" id="author" /></p>
     <p>source:<input type="text" class="form-control" id="source" /></p>
@@ -38,8 +30,8 @@ ViewData["LangLink"] = "/Format/";
             var s = "";
             s += "- {\r\n";
             s += "  content: \"" + content.value + "\",\r\n";
-            s += "  author: \"" + author.value + "\",\r\n";
-            s += "  source: \"" + source.value + "\"\r\n";
+            s += "  author: \"" + (author.value == "" ? "unknown" : author.value) + "\",\r\n";
+            s += "  source: \"" + (source.value == "" ? "unknown" : source.value) + "\"\r\n";
             s += "}";
             preview.value = s;
         }
@@ -58,11 +50,9 @@ ViewData["LangLink"] = "/Format/";
             var s = "";
             s += "- {<br>";
             s += "  content: \"" + content.value.trim() + "\",<br>";
-            s += "  author: \"" + author.value.trim() + "\",<br>";
-            s += "  source: \"" + source.value.trim() + "\"<br>";
+            s += "  author: \"" + (author.value == "" ? "unknown" : author.value).trim() + "\",<br>";
+            s += "  source: \"" + (source.value == "" ? "unknown" : source.value).trim() + "\"<br>";
             s += "}<br>";
             result.innerHTML = s + result.innerHTML;
         });
     </script>
-    </div>
-</div>

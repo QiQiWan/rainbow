@@ -1,0 +1,141 @@
+@{
+    ViewData["Title"] = "Love Stories";
+}
+<script type="text/javascript" src="/js/type4/functions.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/type4/reset.css"/>
+<link rel="stylesheet" type="text/css" href="/css/type4/style.css"/>
+
+
+    <div class="stage">
+        <ul>
+            <li>
+                <div class="bg" data-url="/img/type4/lib.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h1>@ViewData["MyName"] &amp; @ViewData["MyLove"]</h1>
+                <h2> @ViewData["S1"] <br/>
+                    <a href="#yi"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="yi"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/dor.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h2> @ViewData["S2"] <br/>
+                    <a href="#er"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="er"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/lemon.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h2> @ViewData["S3"]<br/>
+                    <a href="#san"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="san"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/fool.jpg">
+                </div>
+            </li>
+            <li class="content" id="item">
+                <h2> @ViewData["S4"] <br/>
+                    <a href="#si"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="si">
+                <li>
+                    <div class="bg" data-url="/img/type4/ferrero.jpg">
+                    </div>
+                </li>
+            </a>
+            <li class="content">
+                <a>
+                    <h2> @ViewData["S5"]<br/>
+                        <a href="#wu"><img src="/img/type4/np.png" /></a>
+                    </h2>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <a name="wu"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/geek.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h2> @ViewData["S6"]<br/>
+                    <a href="#liu"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="liu"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/koala.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h2> @ViewData["S7"]<br/>
+                    <a href="#qi"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul>
+            <a name="qi"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/glass.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h2> @ViewData["S8"] <br/>
+                    <a href="#ba"><img src="/img/type4/np.png" /></a>
+                </h2>
+            </li>
+        </ul>
+        <ul class="last">
+            <a name="ba"></a>
+            <li>
+                <div class="bg" data-url="/img/type4/kk.jpg">
+                </div>
+            </li>
+            <li class="content">
+                <h1> @ViewData["S9"]</h1>
+                <h2 id="elapseClock"> days <span class="digit">20</span> hours <span class="digit">14</span> minutes <span class="digit">00</span> seconds</h2>
+                <script>
+                    var together = new Date();
+                    together.setFullYear(@ViewData["Year"], @ViewData["Month"], @ViewData["Day"] - 1); //最后一页的时间 年,月,
+                    together.setHours(@ViewData["Hour"]);
+                    together.setMinutes(@ViewData["Minute"]);
+                    together.setSeconds(@ViewData["Second"]);
+                    together.setMilliseconds(0);
+                    timeElapse(together);
+                    setInterval(function() {
+                        timeElapse(together);
+                    }, 500);
+                </script>
+                <a class="up" href="#"><img src="/img/type4/up.png" /></a>
+            </li>
+        </ul>
+        <div class="music">
+            <br/>
+            <p align="center">
+                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&amp;id=1330748893&amp;auto=1&amp;height=66">
+                </iframe>
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/type4/main.js"></script>
