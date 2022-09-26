@@ -45,7 +45,7 @@
   top: 28rem;
 }
 
-@media screen and (max-width: 1960px) {
+@media screen and (min-width: 1201px) {
   #board {
     padding: 0 4.2rem 0 4.2rem;
     width: 1080px;
