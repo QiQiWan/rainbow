@@ -363,3 +363,8 @@ content: "You can't do anything about the length of your life, but you can do so
 author: "Even Esar",
 source: "unknown"
 }
+- {
+content: "Years may wrinkle the skin, but to give up enthusiasm wrinkles the soul.",
+author: "Samuel Ullman",
+source: "Youth"
+}
