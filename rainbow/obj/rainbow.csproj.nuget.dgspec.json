@@ -1,18 +1,17 @@
-<<<<<<< HEAD
 {
   "format": 1,
   "restore": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {}
+    "F:\\C#\\rainbow\\rainbow\\rainbow\\rainbow.csproj": {}
   },
   "projects": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj": {
+    "F:\\C#\\rainbow\\rainbow\\rainbow\\rainbow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
+        "projectUniqueName": "F:\\C#\\rainbow\\rainbow\\rainbow\\rainbow.csproj",
         "projectName": "rainbow",
-        "projectPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\rainbow.csproj",
+        "projectPath": "F:\\C#\\rainbow\\rainbow\\rainbow\\rainbow.csproj",
         "packagesPath": "C:\\Users\\EatRice\\.nuget\\packages\\",
-        "outputPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow\\obj\\",
+        "outputPath": "F:\\C#\\rainbow\\rainbow\\rainbow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,72 +29,6 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "targetAlias": "netcoreapp2.2",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    }
-  }
-=======
-{
-  "format": 1,
-  "restore": {
-    "/home/eatrice/桌面/rainbow/rainbow/rainbow.csproj": {}
-  },
-  "projects": {
-    "/home/eatrice/桌面/rainbow/rainbow/rainbow.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/eatrice/桌面/rainbow/rainbow/rainbow.csproj",
-        "projectName": "rainbow",
-        "projectPath": "/home/eatrice/桌面/rainbow/rainbow/rainbow.csproj",
-        "packagesPath": "/home/eatrice/.nuget/packages/",
-        "outputPath": "/home/eatrice/桌面/rainbow/rainbow/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/eatrice/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -116,19 +49,12 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
   }
->>>>>>> d356cd6fc7dfff6a6ffae118e29da941054303bf
 }

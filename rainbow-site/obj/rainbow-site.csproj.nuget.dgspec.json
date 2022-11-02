@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj": {}
+    "F:\\C#\\rainbow\\rainbow\\rainbow-site\\rainbow-site.csproj": {}
   },
   "projects": {
-    "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj": {
+    "F:\\C#\\rainbow\\rainbow\\rainbow-site\\rainbow-site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj",
+        "projectUniqueName": "F:\\C#\\rainbow\\rainbow\\rainbow-site\\rainbow-site.csproj",
         "projectName": "rainbow-site",
-        "projectPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\rainbow-site.csproj",
+        "projectPath": "F:\\C#\\rainbow\\rainbow\\rainbow-site\\rainbow-site.csproj",
         "packagesPath": "C:\\Users\\EatRice\\.nuget\\packages\\",
-        "outputPath": "H:\\study\\C#实验\\初期\\rainbow\\rainbow-site\\obj\\",
+        "outputPath": "F:\\C#\\rainbow\\rainbow\\rainbow-site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -41,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -62,16 +60,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

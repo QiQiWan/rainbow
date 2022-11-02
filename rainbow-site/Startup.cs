@@ -62,7 +62,7 @@ namespace rainbow_site
                 routes.MapRoute(
                     name: "Default",
                     template: "/{action}/{lang}",
-                    new { controller = "Home", action = "Index", lang = "zh-cn" }
+                    new { Controller = "Home", action = "Index", lang = "zh-cn" }
                 );
                 // add a new routing for Qixi
                 routes.MapRoute(
@@ -70,8 +70,13 @@ namespace rainbow_site
                     template: "Qixi/{action}",
                     new { Controller = "Qixi", action = "Index" }
                 );
+                // add a the WeLM routing for WeLM
+                routes.MapRoute(
+                    name: "WeLM",
+                    template: "WeLM/{action}/{str}",
+                    new { Controller = "WeLM", action = "Index", str = "ch"}
+                );
             });
-
         }
     }
 }
