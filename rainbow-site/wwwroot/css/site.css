@@ -61,7 +61,7 @@ img{
 }
 
 .markdown-body {
-  font-size: 1rem;
+  font-size: 1em;
   margin-bottom: 2rem;
   font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   color: #2c3e50;
@@ -92,8 +92,8 @@ h3::before,
 h4::before,
 h5::before,
 h6::before {
-  display: block;
-  content: "";
+  /* display: block;
+  content: ""; */
   margin-top: -4rem;
   height: 4rem;
   width: 1px;
