@@ -12,7 +12,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1178143535,
+        "HashCode": 38440148,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -209,7 +209,7 @@
         }
       },
       {
-        "HashCode": -1134835761,
+        "HashCode": -312513036,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -336,7 +336,7 @@
         }
       },
       {
-        "HashCode": -2036663085,
+        "HashCode": -2044083540,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -468,7 +468,7 @@
         }
       },
       {
-        "HashCode": -124040447,
+        "HashCode": 1138151271,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -514,7 +514,7 @@
         }
       },
       {
-        "HashCode": 1085154143,
+        "HashCode": -1270387731,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -931,7 +931,7 @@
         }
       },
       {
-        "HashCode": -461313312,
+        "HashCode": 1281256469,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1033,7 +1033,7 @@
         }
       },
       {
-        "HashCode": 165778138,
+        "HashCode": 1502983589,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1079,7 +1079,7 @@
         }
       },
       {
-        "HashCode": -200386887,
+        "HashCode": -1449089300,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1149,7 +1149,7 @@
         }
       },
       {
-        "HashCode": 783185206,
+        "HashCode": 1206830315,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1182,7 +1182,7 @@
         }
       },
       {
-        "HashCode": -1910248896,
+        "HashCode": 1955444408,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1378,7 +1378,7 @@
         }
       },
       {
-        "HashCode": 295137527,
+        "HashCode": 2103699784,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1406,7 +1406,7 @@
         }
       },
       {
-        "HashCode": 1053313807,
+        "HashCode": 1220715193,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1487,7 +1487,7 @@
         }
       },
       {
-        "HashCode": -327231952,
+        "HashCode": 1143984610,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1640,7 +1640,7 @@
         }
       },
       {
-        "HashCode": 2096565433,
+        "HashCode": -283793759,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1699,7 +1699,7 @@
         }
       },
       {
-        "HashCode": 866295181,
+        "HashCode": 458652419,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1741,7 +1741,7 @@
         }
       },
       {
-        "HashCode": 2072582608,
+        "HashCode": -94915590,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1773,7 +1773,7 @@
         }
       },
       {
-        "HashCode": -424214102,
+        "HashCode": 380523068,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1807,7 +1807,7 @@
         }
       },
       {
-        "HashCode": -822357872,
+        "HashCode": 2010961507,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.SpaServices",
@@ -1872,43 +1872,8 @@
   "RootNamespace": "rainbow_site",
   "Documents": [
     {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\About_en.cshtml",
-      "TargetPath": "Views\\Home\\About_en.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_QixiLayout.cshtml",
-      "TargetPath": "Views\\Shared\\_QixiLayout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\add.cshtml",
       "TargetPath": "Views\\Home\\add.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type1.cshtml",
-      "TargetPath": "Views\\Qixi\\Type1.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1917,33 +1882,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\Index_en.cshtml",
-      "TargetPath": "Views\\Home\\Index_en.cshtml",
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_QixiLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_QixiLayout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type2.cshtml",
-      "TargetPath": "Views\\Qixi\\Type2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type3.cshtml",
-      "TargetPath": "Views\\Qixi\\Type3.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1957,8 +1907,58 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\About_en.cshtml",
+      "TargetPath": "Views\\Home\\About_en.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type1.cshtml",
+      "TargetPath": "Views\\Qixi\\Type1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type2.cshtml",
+      "TargetPath": "Views\\Qixi\\Type2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Qixi\\Type3.cshtml",
+      "TargetPath": "Views\\Qixi\\Type3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\Index_en.cshtml",
+      "TargetPath": "Views\\Home\\Index_en.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\C#\\rainbow\\rainbow\\rainbow-site\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     }
   ],

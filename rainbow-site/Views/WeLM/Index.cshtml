@@ -72,6 +72,7 @@
                 </div>
             </div>
             <script>
+                var timer;
                 function SubmitForm() {
                     var prompt = $('#input').val();
                     var result = $('#result');
@@ -88,7 +89,6 @@
                         "prompt": prompt,
                         "maxT": maxT
                     }
-                    var timer;
                     $(document).ajaxStart(function () {
                         console.log('准备提交！');
                         $("#submit").attr("disabled", "true");
