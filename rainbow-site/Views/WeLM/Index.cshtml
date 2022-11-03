@@ -98,7 +98,7 @@
                                 + '已用时间 ' + times++ + 's');
                         }, 1000)
                     });
-
+                    $("#submit").attr("disabled", "true");
                     $.ajax({
                         url: "/WeLM/GetPara",
                         type: "post",
@@ -116,13 +116,12 @@
                             clearInterval(timer)
                         },
                         error: function (xhr, status, err) {
-                            alert("error");
+                            alert("请求失败，请刷新后重试！");
+                            $("#submit").removeAttr("disabled");
                         },
                         clearForm: false,
                         resetForm: false
                     })
-
-
 
                     return true
                 }
