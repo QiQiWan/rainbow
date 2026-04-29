@@ -1,8 +1,8 @@
-访问 [Rainbow](https://rainbow.eatrice.top/) 吧！
+访问 [Rainbow](https://rainbow.eatrice.cn/) 吧！
 
 ##  介绍
 
-Rainbow - 一朵彩虹是 `EatRiceTeam`建立的一个旨在收集优美英语句子的一套网站。演示网站地址为：[https://rainbow.eatrice.top/](https://rainbow.eatrice.top/)
+Rainbow - 一朵彩虹是 `EatRiceTeam`建立的一个旨在收集优美英语句子的一套网站。演示网站地址为：[https://rainbow.eatrice.cn/](https://rainbow.eatrice.cn/)
 
 我们希望能够与大家分享我们在日常的学习生活中遇到的优美的英语句子，希望它能像彩虹一样，美丽天空，温暖人心。
 
@@ -31,7 +31,7 @@ Rainbow 创建的初衷是替代我们的个人网站目前正在使用的 一�
 
 投稿方式：
 
-1. [EatRice的邮箱：qiqi@eatrice.top](mailto:qiqi@eatrice.top)
+1. [EatRice的邮箱：qiqi@eatrice.cn](mailto:qiqi@eatrice.cn)
 
 2. [Courir的邮箱：dipper.ruru@gmail.com](dipper.ruru@gmail.com)
 
@@ -44,17 +44,17 @@ Rainbow 创建的初衷是替代我们的个人网站目前正在使用的 一�
 
 目前语句库饱含了三种类型的语句：reading、movies、songs
 
-需要从语句库中随机获得语句的`Json`格式的接口：`https://api.eatrice.top/`
+需要从语句库中随机获得语句的`Json`格式的接口：`https://api.eatrice.cn/`
 
 需要按照三个单独分类请求语句的接口：
-`https://api.eatrice.top/reading/`
-`https://api.eatrice.top/movies/`
-`https://api.eatrice.top/songs/`
+`https://api.eatrice.cn/reading/`
+`https://api.eatrice.cn/movies/`
+`https://api.eatrice.cn/songs/`
 
-获取所有的句子接口：`https://api.eatrice.top/GetAll/`
+获取所有的句子接口：`https://api.eatrice.cn/GetAll/`
 
-需要根据语句ID请求语句的接口：`https://api.eatrice.top/?ID=10001`
-ID编号从10001开始增加，若该ID不存在则随机返回语句，同`https://api.eatrice.top/`
+需要根据语句ID请求语句的接口：`https://api.eatrice.cn/?ID=10001`
+ID编号从10001开始增加，若该ID不存在则随机返回语句，同`https://api.eatrice.cn/`
 
 返回的数据格式如下：
 ``` json
@@ -74,7 +74,7 @@ ID编号从10001开始增加，若该ID不存在则随机返回语句，同`http
 
 展示网站为 Rainbow 提供展示界面。和说明文档。
 
-Rainbow的展示网站为：https://rainbow.eatrice.top/
+Rainbow的展示网站为：https://rainbow.eatrice.cn/
 欢迎大家访问和提供意见😊😊😊。
 
 ![](1.png)
@@ -91,12 +91,12 @@ Rainbow的展示网站为：https://rainbow.eatrice.top/
 
 ``` html
 <script>
-fetch('https://api.eatrice.top')
+fetch('https://api.eatrice.cn')
   .then(response => response.json())
   .then(data => {
     var rainbow = document.getElementById('rainbow');
     rainbow.innerHTML = data.Content;
-    rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    rainbow.href = "https://rainbow.eatrice.cn/?ID=" + data.ID;
   })
   .catch(console.error)
 </script>
@@ -113,5 +113,5 @@ fetch('https://api.eatrice.top')
 
 ## 贡献者
 
-[EatRice-https://eatrice.top](https://eatrice.top)
-[上屋顶看北斗七星-https://ruru.eatrice.top](https://ruru.eatrice.top)
+[EatRice-https://eatrice.cn](https://eatrice.cn)
+[上屋顶看北斗七星-https://ruru.eatrice.cn](https://ruru.eatrice.cn)
