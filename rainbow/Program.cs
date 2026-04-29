@@ -16,9 +16,9 @@ namespace rainbow
             //引用全局服务器
             server = Common.server;
             //添加服务监听地址
-            server.AddDomain("http://127.0.0.1:8888/");
+            server.AddDomain("http://127.0.0.1:4500/");
 
-            Loger.Log("The server is running at: http:/127.0.0.1:8888/");
+            Loger.Log("The server is running at: http:/127.0.0.1:4500/");
 
             //设置定时器，一个分钟刷新一次句子管理器
             TimeTick tick = new TimeTick(60000); //单位毫秒
