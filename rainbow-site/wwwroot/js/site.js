@@ -43,7 +43,7 @@ function TimeTick() {
 
 function GetRainbow() {
     var ID = getQueryString("ID") || "";
-    fetch('https://api.eatrice.top' + "?ID=" + ID)
+    fetch('https://api.eatrice.cn' + "?ID=" + ID)
         .then(response => response.json())
         .then(data => {
             PageReplace("subtitle", data);

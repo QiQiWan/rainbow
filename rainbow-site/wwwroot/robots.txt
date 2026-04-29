@@ -10,4 +10,4 @@ Allow: /Qixi/Type1/
 
 Allow: /Qixi/Type2/
 
-Sitemap: https://eatrice.top/sitemap.xml
+Sitemap: https://eatrice.cn/sitemap.xml

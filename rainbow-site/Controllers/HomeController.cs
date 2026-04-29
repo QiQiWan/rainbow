@@ -64,7 +64,7 @@ namespace rainbow_site.Controllers
         public string GetJson()
         {
             string ID = Request.Query["ID"];
-            string url = $"https://api.eatrice.top/?ID={ID}";
+            string url = $"https://api.eatrice.cn/?ID={ID}";
 
             string Json = WebHelper.Request(url);
             return Json;

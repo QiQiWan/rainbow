@@ -43,7 +43,7 @@ ViewData["LangLink"] = "/About/en/";
             <p>投稿方式：</p>
             <ol>
                 <li>
-                    <p><a href="mailto:qiqi@eatrice.top">EatRice的邮箱：qiqi@eatrice.top</a></p>
+                    <p><a href="mailto:qiqi@eatrice.cn">EatRice的邮箱：qiqi@eatrice.cn</a></p>
                 </li>
                 <li>
                     <p><a href="dipper.ruru@gmail.com">Courir的邮箱：dipper.ruru@gmail.com</a></p>
@@ -56,11 +56,11 @@ ViewData["LangLink"] = "/About/en/";
             <h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2>
             <h3 id="数据接口"><a href="#数据接口" class="headerlink" title="数据接口"></a>数据接口</h3>
             <p>目前语句库饱含了三种类型的语句：reading、movies、songs</p>
-            <p>需要从语句库中随机获得语句的<code>Json</code>格式的接口：<code>https://api.eatrice.top/</code></p>
-            <p>需要按照三个单独分类请求语句的接口：<br><code>https://api.eatrice.top/reading/</code><br><code>https://api.eatrice.top/movies/</code><br><code>https://api.eatrice.top/songs/</code>
+            <p>需要从语句库中随机获得语句的<code>Json</code>格式的接口：<code>https://api.eatrice.cn/</code></p>
+            <p>需要按照三个单独分类请求语句的接口：<br><code>https://api.eatrice.cn/reading/</code><br><code>https://api.eatrice.cn/movies/</code><br><code>https://api.eatrice.cn/songs/</code>
             </p>
-            <p>获取语句库中的所有语句的<code>Json</code>格式的接口：<code>https://api.eatrice.top/GetAll/</code></p>
-            <p>需要根据语句ID请求语句的接口：<code>https://api.eatrice.top/?ID=10001</code><br>ID编号从10001开始增加，若该ID不存在则随机返回语句，同<code>https://api.eatrice.top/</code>
+            <p>获取语句库中的所有语句的<code>Json</code>格式的接口：<code>https://api.eatrice.cn/GetAll/</code></p>
+            <p>需要根据语句ID请求语句的接口：<code>https://api.eatrice.cn/?ID=10001</code><br>ID编号从10001开始增加，若该ID不存在则随机返回语句，同<code>https://api.eatrice.cn/</code>
             </p>
             <p>返回的数据格式如下：<br>
             <div class="hljs">
@@ -74,20 +74,20 @@ ViewData["LangLink"] = "/About/en/";
             <br>其中，<code>Content</code>为句子内容<br><code>Author</code>为句子作者<br><code>Source</code>为句子来源<br><code>ID</code>为句子ID
             </p>
             <h3 id="展示网站"><a href="#展示网站" class="headerlink" title="展示网站"></a>展示网站</h3>
-            <p>Rainbow的展示网站为：<a href="https://rainbow.eatrice.top/" target="_blank"
-                    rel="noopener">https://rainbow.eatrice.top/</a><br>欢迎大家访问和提供意见😊😊😊。</p>
-            <p><img src="1.png" srcset="https://eatrice.top/post/Rainbow/1.png" alt=""></p>
+            <p>Rainbow的展示网站为：<a href="https://rainbow.eatrice.cn/" target="_blank"
+                    rel="noopener">https://rainbow.eatrice.cn/</a><br>欢迎大家访问和提供意见😊😊😊。</p>
+            <p><img src="1.png" srcset="https://eatrice.cn/post/Rainbow/1.png" alt=""></p>
             <br />
             <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在需要添加 <code>rainbow</code> 的地方添加一个占位符：</p>
 <div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"rainbow"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">''</span>&gt;</span>🌈 获取中...<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
 <p>在申明占位符之后，搭配数据请求脚本</p>
 <div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
-<span class="actionscript">fetch(<span class="hljs-string">'https://api.eatrice.top'</span>)</span>
+<span class="actionscript">fetch(<span class="hljs-string">'https://api.eatrice.cn'</span>)</span>
 <span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())</span>
 <span class="javascript">  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> &#123;</span>
 <span class="javascript">    <span class="hljs-keyword">var</span> rainbow = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'rainbow'</span>);</span>
     rainbow.innerHTML = data.Content;
-<span class="actionscript">    rainbow.href = <span class="hljs-string">"https://rainbow.eatrice.top/?ID="</span> + data.ID;</span>
+<span class="actionscript">    rainbow.href = <span class="hljs-string">"https://rainbow.eatrice.cn/?ID="</span> + data.ID;</span>
   &#125;)
 <span class="javascript">  .catch(<span class="hljs-built_in">console</span>.error)</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre></div>
@@ -100,10 +100,10 @@ ViewData["LangLink"] = "/About/en/";
             <h2 id="贡献者"><a href="#贡献者" class="headerlink" title="贡献者"></a>贡献者</h2>
             <br />
             <p>
-                <a href="https://eatrice.top">EatRice-https://eatrice.top</a>
+                <a href="https://eatrice.cn">EatRice-https://eatrice.cn</a>
                 <br />
                 <br />
-                <a href="https://ruru.eatrice.top" target="_blank" rel="noopener">上屋顶看北斗七星-https://ruru.eatrice.top</a>
+                <a href="https://ruru.eatrice.cn" target="_blank" rel="noopener">上屋顶看北斗七星-https://ruru.eatrice.cn</a>
             </p>
 
         </article>
